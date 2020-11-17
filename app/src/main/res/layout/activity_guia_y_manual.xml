@@ -4,25 +4,166 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/gradient_backgound"
+    android:background="#C8E6C9"
     tools:context=".guia_y_manual">
 
     <TextView
-        android:id="@+id/textView4"
-        android:layout_width="358dp"
-        android:layout_height="91dp"
-        android:alpha="0.6"
-        android:background="@drawable/bordesredondeados2"
-        android:fontFamily="cursive"
+        android:id="@+id/menuguía"
+        android:layout_width="417dp"
+        android:layout_height="48dp"
+        android:background="#6F332D2D"
+        android:fontFamily="@font/roboto_thin"
+        android:gravity="center"
         android:text="Guía y Manual de Supervivencia"
         android:textAlignment="center"
-        android:textColor="#ffffff"
-        android:textSize="36sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        android:textSize="22sp"
+        tools:layout_editor_absoluteX="-6dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:layout_width="408dp"
+        android:layout_height="364dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="321dp"
+        tools:ignore="MissingConstraints">
+
+
+        <TextView
+            android:id="@+id/tecnicaSupervivencia"
+            android:layout_width="341dp"
+            android:layout_height="38dp"
+            android:background="#606060"
+            android:shadowColor="#FFFFFF"
+            android:text="Técnicas de Supervivencia"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.331"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.348"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.2dp"
+            android:visibility="visible"
+            android:background="@android:color/darker_gray"/>
+
+        <TextView
+            android:id="@+id/ComoOrientarse"
+            android:layout_width="341dp"
+            android:layout_height="38dp"
+            android:background="#606060"
+            android:shadowColor="#FFFFFF"
+            android:text="Cómo orientarse"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.331"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.348" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.2dp"
+            android:visibility="visible"
+            android:background="@android:color/darker_gray"/>
+
+        <TextView
+            android:id="@+id/ConseguirAlimentos"
+            android:layout_width="341dp"
+            android:layout_height="38dp"
+            android:background="#606060"
+            android:shadowColor="#FFFFFF"
+            android:text="Conseguir alimentos"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.331"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.348"/>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.2dp"
+            android:visibility="visible"
+            android:background="@android:color/darker_gray"/>
+
+        <TextView
+            android:id="@+id/KitSupervivencia"
+            android:layout_width="341dp"
+            android:layout_height="38dp"
+            android:background="#606060"
+            android:shadowColor="#FFFFFF"
+            android:text="Kit de Supervivencia"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.331"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.348" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.2dp"
+            android:visibility="visible"
+            android:background="@android:color/darker_gray"/>
+
+        <TextView
+            android:id="@+id/AfrontarAccidentes"
+            android:layout_width="341dp"
+            android:layout_height="38dp"
+            android:background="#606060"
+            android:shadowColor="#FFFFFF"
+            android:text="Cómo afrontar accidentes"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.331"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.348" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.2dp"
+            android:visibility="visible"
+            android:background="@android:color/darker_gray"/>
+
+        <TextView
+            android:id="@+id/CurarHeridas"
+            android:layout_width="341dp"
+            android:layout_height="38dp"
+            android:background="#606060"
+            android:shadowColor="#FFFFFF"
+            android:text="Curar heridas"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.331"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.348" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.2dp"
+            android:id="@+id/separator"
+            android:visibility="visible"
+            android:background="@android:color/darker_gray"/>
+
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
