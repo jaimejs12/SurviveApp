@@ -7,28 +7,53 @@
     android:background="#C8E6C9"
     tools:context=".guia_y_manual">
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".SplashScreenActivity">>
+
+        <ImageView
+            android:id="@+id/imagenGuíaManual"
+            android:layout_width="match_parent"
+            android:layout_height="277dp"
+            android:background="#FFFFFF"
+            app:srcCompat="@drawable/pexels_alexander_butenko_5562838"
+            tools:ignore="MissingConstraints" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="?attr/actionBarSize"
+        android:layout_alignParentBottom="true"
+        tools:ignore="MissingConstraints"/>
+
+
     <TextView
         android:id="@+id/menuguía"
         android:layout_width="417dp"
         android:layout_height="48dp"
         android:background="#6F332D2D"
-        android:fontFamily="@font/roboto_thin"
+        android:fontFamily="@font/roboto_bold"
         android:gravity="center"
         android:text="Guía y Manual de Supervivencia"
         android:textAlignment="center"
         android:textSize="22sp"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="-6dp"
-        tools:layout_editor_absoluteY="0dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="0dp" />
+
 
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="408dp"
         android:layout_height="364dp"
         android:gravity="center"
         android:orientation="vertical"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="3dp"
-        tools:layout_editor_absoluteY="321dp"
-        tools:ignore="MissingConstraints">
+        tools:layout_editor_absoluteY="321dp">
 
 
         <TextView
@@ -45,12 +70,13 @@
             app:layout_constraintHorizontal_bias="0.331"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.348"/>
+            app:layout_constraintVertical_bias="0.348" />
+
         <View
             android:layout_width="fill_parent"
             android:layout_height="0.2dp"
-            android:visibility="visible"
-            android:background="@android:color/darker_gray"/>
+            android:background="@android:color/darker_gray"
+            android:visibility="visible" />
 
         <TextView
             android:id="@+id/ComoOrientarse"
@@ -71,8 +97,8 @@
         <View
             android:layout_width="fill_parent"
             android:layout_height="0.2dp"
-            android:visibility="visible"
-            android:background="@android:color/darker_gray"/>
+            android:background="@android:color/darker_gray"
+            android:visibility="visible" />
 
         <TextView
             android:id="@+id/ConseguirAlimentos"
@@ -88,13 +114,13 @@
             app:layout_constraintHorizontal_bias="0.331"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.348"/>
+            app:layout_constraintVertical_bias="0.348" />
 
         <View
             android:layout_width="fill_parent"
             android:layout_height="0.2dp"
-            android:visibility="visible"
-            android:background="@android:color/darker_gray"/>
+            android:background="@android:color/darker_gray"
+            android:visibility="visible" />
 
         <TextView
             android:id="@+id/KitSupervivencia"
@@ -115,8 +141,8 @@
         <View
             android:layout_width="fill_parent"
             android:layout_height="0.2dp"
-            android:visibility="visible"
-            android:background="@android:color/darker_gray"/>
+            android:background="@android:color/darker_gray"
+            android:visibility="visible" />
 
         <TextView
             android:id="@+id/AfrontarAccidentes"
@@ -137,8 +163,8 @@
         <View
             android:layout_width="fill_parent"
             android:layout_height="0.2dp"
-            android:visibility="visible"
-            android:background="@android:color/darker_gray"/>
+            android:background="@android:color/darker_gray"
+            android:visibility="visible" />
 
         <TextView
             android:id="@+id/CurarHeridas"
@@ -157,11 +183,11 @@
             app:layout_constraintVertical_bias="0.348" />
 
         <View
+            android:id="@+id/separator"
             android:layout_width="fill_parent"
             android:layout_height="0.2dp"
-            android:id="@+id/separator"
-            android:visibility="visible"
-            android:background="@android:color/darker_gray"/>
+            android:background="@android:color/darker_gray"
+            android:visibility="visible" />
 
 
     </LinearLayout>
