@@ -18,6 +18,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".creartrampas"></activity>
+        <activity android:name=".pescaycaza" />
         <activity android:name=".MainActivity" />
         <activity android:name=".que_comer" />
         <activity android:name=".linterna" />

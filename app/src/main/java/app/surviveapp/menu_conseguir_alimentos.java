@@ -19,4 +19,14 @@ public class menu_conseguir_alimentos extends AppCompatActivity {
         startActivity(queComer);
     }
 
+    public void pescaycaza(View view) {
+        Intent pescayCaza = new Intent(this, pescaycaza.class);
+        startActivity(pescayCaza);
+    }
+
+    public void Trampas(View view) {
+        Intent trampas = new Intent(this, creartrampas.class);
+        startActivity(trampas);
+    }
+
 }
