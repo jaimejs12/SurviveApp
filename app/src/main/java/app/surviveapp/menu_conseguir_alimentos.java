@@ -15,7 +15,7 @@ public class menu_conseguir_alimentos extends AppCompatActivity {
     }
 
     public void queComer(View view) {
-        Intent queComer = new Intent(this, que_comer.class);
+        Intent queComer = new Intent(this, geolocalizacion.class);
         startActivity(queComer);
     }
 
