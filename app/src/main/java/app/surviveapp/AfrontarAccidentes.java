@@ -6,17 +6,16 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class guia_y_manual extends AppCompatActivity {
+public class AfrontarAccidentes extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_guia_y_manual);
+        setContentView(R.layout.activity_afrontar_accidentes);
     }
 
-    public void aaa(View view) {
-        Intent sol = new Intent(this, ComoOrientarse.class);
-        startActivity(sol);
+    public void volver(View view) {
+        Intent accidente = new Intent(this, guia_y_manual.class);
+        startActivity(accidente);
     }
-
 }
