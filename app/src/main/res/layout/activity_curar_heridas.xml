@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C8E6C9"
+    tools:context=".curar_heridas">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="367dp"
+        android:layout_height="wrap_content"
+        android:alpha="0.6"
+        android:background="#000000"
+        android:fontFamily="@font/roboto_bold"
+        android:text="SurviveApp"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.041"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022"
+        app:srcCompat="@drawable/abc_vector_test" />
+
+    <ScrollView
+        android:id="@+id/scrollView4"
+        android:layout_width="359dp"
+        android:layout_height="504dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.335">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="370dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="@font/roboto_thin"
+                android:text="1.El primer paso sería tener en cuenta que la persona que vaya a curarse debe tener claro si está solo o no, y si necesita ayuda para que le curen la ayuda. Tanto de una manera o de otra hay que tener en cuenta la higiene. Una persona que va a curar a un niño debe lavarse las manos porque puede contagiarse de algo por la sangre o bien transmitirle una infección, advierte."
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="370dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="@font/roboto_thin"
+                android:text="2. A partir de ahí, si la herida presenta una pequeña hemorragia, dice que lo importante es colocar una gasa o un pañuelo limpio, que no suelten pelusas, para hacer compresión sobre herida y detener la hemorragia. Un algodón en este caso estaría contraindicado."
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="18dp" />
+            <TextView
+                android:layout_width="370dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="@font/roboto_thin"
+                android:text="3. Después, la parte más importante: limpiar la herida. Cualquiera hay que limpiarla y lo más sencillo es con agua corriente, a chorro. Se puede emplear también jabón neutro y luego hay que enjuagarlo bien. No hay que complicarse la vida. Si hay suero fisiológico también está bien. Debe ser agua potable."
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="18dp" />
+            <TextView
+                android:layout_width="370dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="@font/roboto_thin"
+                android:text="4. A continuación hay que secar bien la piel de alrededor de la herida y después se aplicaría un antiséptico para desinfectar herida: la clorexhidina o la povidona yodada, que pueden usarse indistintamente."
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="18dp" />
+            <TextView
+                android:layout_width="370dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="@font/roboto_thin"
+                android:text="5.- Siempre tapar la herida con una gasa, o con algo que no desprenda fibras, y un esparadrapo para fijarlo. Las tiritas de toda la vida también son útiles, o bien los apósitos transpirables que venden en las farmacias, que son muy similares ya a los que emplean los profesionales."
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
