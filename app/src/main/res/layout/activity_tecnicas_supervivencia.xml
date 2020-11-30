@@ -118,7 +118,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="136dp"
                     app:srcCompat="@drawable/pexels_jens_johnsson_6609012" />
-
                 <TextView
                     android:id="@+id/agua"
                     android:layout_width="300dp"
@@ -129,7 +128,6 @@
                     android:textAlignment="center"
                     android:textColor="@color/white"
                     android:textSize="24sp" />
-
                 <TextView
                     android:id="@+id/espacio3"
                     android:layout_width="207dp"
@@ -145,6 +143,11 @@
                     app:layout_constraintTop_toTopOf="parent"
                     tools:visibility="invisible" />
 
+                <ImageView
+                    android:id="@+id/imageView14"
+                    android:layout_width="match_parent"
+                    android:layout_height="129dp"
+                    app:srcCompat="@drawable/pexels_kony_xyzx_370663611" />
                 <TextView
                     android:id="@+id/señales"
                     android:layout_width="300dp"
@@ -155,7 +158,6 @@
                     android:textAlignment="center"
                     android:textColor="@color/white"
                     android:textSize="24sp" />
-
                 <TextView
                     android:id="@+id/espacio4"
                     android:layout_width="207dp"
@@ -170,6 +172,12 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     tools:visibility="invisible" />
+
+                <ImageView
+                    android:id="@+id/imageView15"
+                    android:layout_width="match_parent"
+                    android:layout_height="159dp"
+                    app:srcCompat="@drawable/frigid_65165_760x55011" />
 
                 <TextView
                     android:id="@+id/frio"
@@ -196,6 +204,12 @@
                     app:layout_constraintTop_toTopOf="parent"
                     tools:visibility="invisible" />
 
+                <ImageView
+                    android:id="@+id/imageView16"
+                    android:layout_width="match_parent"
+                    android:layout_height="128dp"
+                    app:srcCompat="@drawable/pexels_bruno_scramgnon_58575911" />
+
                 <TextView
                     android:id="@+id/calor"
                     android:layout_width="300dp"
@@ -206,6 +220,12 @@
                     android:textAlignment="center"
                     android:textColor="@color/white"
                     android:textSize="24sp" />
+
+                <ImageView
+                    android:id="@+id/imageView13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/pexels_kony_xyzx_370663611" />
 
             </LinearLayout>
 
