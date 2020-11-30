@@ -32,17 +32,18 @@
             android:textSize="22sp"
             tools:ignore="MissingConstraints" />
 
+
         <ScrollView
-            android:layout_width="318dp"
+            android:layout_width="298dp"
             android:layout_height="444dp"
             android:layout_below="@+id/imageView9"
             android:layout_alignParentStart="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="51dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginEnd="42dp"
-            android:layout_marginBottom="0dp">
+            android:layout_marginStart="57dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="55dp"
+            android:layout_marginBottom="1dp">
 
 
             <LinearLayout
@@ -53,13 +54,12 @@
 
                 <ImageView
                     android:id="@+id/imageView10"
-                    android:layout_width="308dp"
-                    android:layout_height="160dp"
-                    app:srcCompat="@drawable/pexels_min_an_771308" />
-
+                    android:layout_width="match_parent"
+                    android:layout_height="136dp"
+                    app:srcCompat="@drawable/pexels_min_an_77130811" />
                 <TextView
                     android:id="@+id/refugio"
-                    android:layout_width="329dp"
+                    android:layout_width="300dp"
                     android:layout_height="match_parent"
                     android:background="#8F000000"
                     android:fontFamily="@font/roboto_bold"
@@ -67,10 +67,30 @@
                     android:textAlignment="center"
                     android:textColor="@color/white"
                     android:textSize="24sp" />
+                <TextView
+                    android:id="@+id/espacio1"
+                    android:layout_width="207dp"
+                    android:layout_height="37dp"
+                    android:background="#004CAF50"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:visibility="invisible" />
 
+
+                <ImageView
+                    android:id="@+id/imageView12"
+                    android:layout_width="match_parent"
+                    android:layout_height="138dp"
+                    app:srcCompat="@drawable/pexels_djordje_petrovic_141422211" />
                 <TextView
                     android:id="@+id/fuego"
-                    android:layout_width="329dp"
+                    android:layout_width="300dp"
                     android:layout_height="match_parent"
                     android:background="#8F000000"
                     android:fontFamily="@font/roboto_bold"
@@ -78,10 +98,30 @@
                     android:textAlignment="center"
                     android:textColor="@color/white"
                     android:textSize="24sp" />
+                <TextView
+                    android:id="@+id/espacio2"
+                    android:layout_width="207dp"
+                    android:layout_height="37dp"
+                    android:background="#004CAF50"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:visibility="invisible" />
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="136dp"
+                    app:srcCompat="@drawable/pexels_jens_johnsson_6609012" />
 
                 <TextView
                     android:id="@+id/agua"
-                    android:layout_width="329dp"
+                    android:layout_width="300dp"
                     android:layout_height="match_parent"
                     android:background="#8F000000"
                     android:fontFamily="@font/roboto_bold"
@@ -91,8 +131,23 @@
                     android:textSize="24sp" />
 
                 <TextView
+                    android:id="@+id/espacio3"
+                    android:layout_width="207dp"
+                    android:layout_height="37dp"
+                    android:background="#004CAF50"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:visibility="invisible" />
+
+                <TextView
                     android:id="@+id/señales"
-                    android:layout_width="329dp"
+                    android:layout_width="300dp"
                     android:layout_height="match_parent"
                     android:background="#8F000000"
                     android:fontFamily="@font/roboto_bold"
@@ -102,8 +157,23 @@
                     android:textSize="24sp" />
 
                 <TextView
+                    android:id="@+id/espacio4"
+                    android:layout_width="207dp"
+                    android:layout_height="37dp"
+                    android:background="#004CAF50"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:visibility="invisible" />
+
+                <TextView
                     android:id="@+id/frio"
-                    android:layout_width="329dp"
+                    android:layout_width="300dp"
                     android:layout_height="match_parent"
                     android:background="#8F000000"
                     android:fontFamily="@font/roboto_bold"
@@ -111,10 +181,24 @@
                     android:textAlignment="center"
                     android:textColor="@color/white"
                     android:textSize="24sp" />
+                <TextView
+                    android:id="@+id/espacio5"
+                    android:layout_width="207dp"
+                    android:layout_height="37dp"
+                    android:background="#004CAF50"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:visibility="invisible" />
 
                 <TextView
                     android:id="@+id/calor"
-                    android:layout_width="329dp"
+                    android:layout_width="300dp"
                     android:layout_height="match_parent"
                     android:background="#8F000000"
                     android:fontFamily="@font/roboto_bold"
