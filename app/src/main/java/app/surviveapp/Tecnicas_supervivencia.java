@@ -35,12 +35,12 @@ public class Tecnicas_supervivencia extends AppCompatActivity {
     }
 
     public void PantallaFrio(View view) {
-        Intent sigpantalla = new Intent(this, Tecnicas_supervivencia.class);
+        Intent sigpantalla = new Intent(this, articulo_frio.class);
         startActivity(sigpantalla);
     }
 
     public void PantallaCalor(View view) {
-        Intent sigpantalla = new Intent(this, Tecnicas_supervivencia.class);
+        Intent sigpantalla = new Intent(this, articulo_calor.class);
         startActivity(sigpantalla);
     }
 }
