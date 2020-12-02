@@ -20,17 +20,17 @@ public class Tecnicas_supervivencia extends AppCompatActivity {
     }
 
     public void PantallaFuego(View view) {
-        Intent sigpantalla = new Intent(this, Tecnicas_supervivencia.class);
+        Intent sigpantalla = new Intent(this, articulo_fuego.class);
         startActivity(sigpantalla);
     }
 
     public void PantallaAgua(View view) {
-        Intent sigpantalla = new Intent(this, Tecnicas_supervivencia.class);
+        Intent sigpantalla = new Intent(this, articulo_agua.class);
         startActivity(sigpantalla);
     }
 
     public void PantallaRescate(View view) {
-        Intent sigpantalla = new Intent(this, Tecnicas_supervivencia.class);
+        Intent sigpantalla = new Intent(this, articulo_rescate.class);
         startActivity(sigpantalla);
     }
 
