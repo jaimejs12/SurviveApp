@@ -46,55 +46,12 @@
                 android:orientation="vertical" >
 
                 <TextView
-                    android:id="@+id/refugio"
-                    android:layout_width="358dp"
-                    android:layout_height="match_parent"
-                    android:background="#00FFFFFF"
-                    android:fontFamily="sans-serif"
-                    android:text="Las señales de auxilio advierten de nuestra presencia a los equipos de rescate. En una situación de supervivencia real es fundamental saber prepararlas y usarlas para maximizar nuestras posibilidades de ser encontrados por los equipos de salvamento."
-                    android:textAlignment="inherit"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                    android:textColor="#62B165"
-                    android:textColorHint="#00000000"
-                    android:textColorLink="#000000"
-                    android:textSize="15sp"/>
-                <TextView
-                    android:id="@+id/espacio1"
-                    android:layout_width="207dp"
-                    android:layout_height="10dp"
-                    android:background="#004CAF50"
-                    android:text=""
-                    android:textAlignment="center"
-                    android:textColor="@color/white"
-                    android:textSize="24sp"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    tools:visibility="invisible" />
-
-                <TextView
-                    android:id="@+id/espacio2"
-                    android:layout_width="207dp"
-                    android:layout_height="10dp"
-                    android:background="#004CAF50"
-                    android:text=""
-                    android:textAlignment="center"
-                    android:textColor="@color/white"
-                    android:textSize="24sp"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    tools:visibility="invisible" />
-
-                <TextView
                     android:id="@+id/titulo1"
                     android:layout_width="358dp"
                     android:layout_height="match_parent"
                     android:background="#00FFFFFF"
                     android:fontFamily="sans-serif-black"
-                    android:text="Señales de auxilio y SOS con humo y fuego"
+                    android:text="Decálogo para protegerse del calor"
                     android:textAlignment="inherit"
                     android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                     android:textColor="#62B165"
@@ -108,13 +65,90 @@
                     android:layout_height="match_parent"
                     android:background="#00FFFFFF"
                     android:fontFamily="sans-serif"
-                    android:text="El fuego es una de las mejores formas de señalar nuestra posición para que nos rescaten. Debemos tener en cuenta que tres señales iguales, del tipo que sean, serán siempre interpretadas como un mensaje de SOS; por tanto si tenemos suficiente combustible deberemos hacer tres fuegos.
+                    android:text="1. Permanecer a la sombra y protegernos del sol con gafas, sombreros y gorras."
+                    android:textAlignment="inherit"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#62B165"
+                    android:textColorHint="#00000000"
+                    android:textColorLink="#000000"
+                    android:textSize="15sp"/>
 
-Hay que preparar tres montones de leña en un lugar claro y elevado cerca de nuestro campamento y tenerlas listas para encender el fuego en caso de que pase un avión o un equipo de rescate o salvamento. Debemos preparar abundante yesca para que los fuegos prendan con facilidad y rapidez. Para ayudar a encenderlas podemos impregnar un paño en gasolina y añadirlo a la yesca, pero nunca echar ningún líquido inflamable directamente al fuego, pues el riesgo de que las llamas nos alcancen es altísimo. Antes de encenderlo debemos retirar del entorno cualquier recipiente con líquido inflamable. Si es posible, deberemos cubrirlas fogatas para que permanezcan secas hasta el momento de utilizarlas.
+                <TextView
+                    android:id="@+id/text2"
+                    android:layout_width="358dp"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:fontFamily="sans-serif"
+                    android:text="2. Hidratarnos con frecuencia bebiendo mucha agua y zumos naturales, no embasados, aunque no tengamos sed. No hay que abusar de las bebidas con cafeína, alcohol o con grandes cantidades de azúcar. Salvo contraindicación médica, debemos ingerir al menos litro y medio diario."
+                    android:textAlignment="inherit"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#62B165"
+                    android:textColorHint="#00000000"
+                    android:textColorLink="#000000"
+                    android:textSize="15sp"/>
 
-De noche se verán mejor las llamas, pero durante el día es más visible el humo. En función de nuestras necesidades podemos obtener humo negro echando en el fuego paños impregnados en aceite de motor o quemando ruedas u otros objetos de goma. Para obtener humo blanco echaremos sobre el fuego hojas, hierbas verdes, musgo o helechos.
+                <TextView
+                    android:id="@+id/text_2"
+                    android:layout_width="358dp"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:fontFamily="sans-serif"
+                    android:text="3. Realizar comidas ligeras que ayuden a reponer las sales perdidas con el sudor: sopas frías, ensaladas, frutas y verduras..."
+                    android:textAlignment="inherit"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#62B165"
+                    android:textColorHint="#00000000"
+                    android:textColorLink="#000000"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:id="@+id/text_3"
+                    android:layout_width="358dp"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:fontFamily="sans-serif"
+                    android:text="4. Aplicarse siempre protector solar. Extender la crema 30 minutos antes y elegir un factor de protección alto, como mínimo un SPF15."
+                    android:textAlignment="inherit"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#62B165"
+                    android:textColorHint="#00000000"
+                    android:textColorLink="#000000"
+                    android:textSize="15sp"/>
 
-El humo negro es más visible e días nublados o si nos encontramos en un lugar nevado o en el desierto; el blanco será más visible en un bosque y en días despejados."
+                <TextView
+                    android:id="@+id/text_1"
+                    android:layout_width="358dp"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:fontFamily="sans-serif"
+                    android:text="5. Usar ropa ligera, holgada y transpirable. Lo mejor son los tejidos naturales como el lino y el algodón. "
+                    android:textAlignment="inherit"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#62B165"
+                    android:textColorHint="#00000000"
+                    android:textColorLink="#000000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:id="@+id/text_4"
+                    android:layout_width="358dp"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:fontFamily="sans-serif"
+                    android:text="6. Si en algún momento nos encontramos mal hay que parar y pedir ayuda."
+                    android:textAlignment="inherit"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#62B165"
+                    android:textColorHint="#00000000"
+                    android:textColorLink="#000000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:id="@+id/text_5"
+                    android:layout_width="358dp"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:fontFamily="sans-serif"
+                    android:text="5. Realizar comidas ligeras que ayuden a reponer las sales perdidas con el sudor: sopas frías, ensaladas, frutas y verduras..."
                     android:textAlignment="inherit"
                     android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                     android:textColor="#62B165"
@@ -137,108 +171,11 @@ El humo negro es más visible e días nublados o si nos encontramos en un lugar 
                     app:layout_constraintTop_toTopOf="parent"
                     tools:visibility="invisible" />
 
-                <TextView
-                    android:id="@+id/titulo2"
-                    android:layout_width="358dp"
-                    android:layout_height="match_parent"
-                    android:background="#00FFFFFF"
-                    android:fontFamily="sans-serif-black"
-                    android:text="Señales de auxilio y socorrro tierra-aire"
-                    android:textAlignment="inherit"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                    android:textColor="#62B165"
-                    android:textColorHint="#00000000"
-                    android:textColorLink="#000000"
-                    android:textSize="20sp" />
                 <ImageView
-                    android:id="@+id/imageView11"
-                    android:layout_width="345dp"
-                    android:layout_height="140dp"
-                    app:srcCompat="@drawable/senales_de_auxilio_sos" />
-
-
-                <TextView
-                    android:id="@+id/text3"
-                    android:layout_width="358dp"
-                    android:layout_height="match_parent"
-                    android:background="#00FFFFFF"
-                    android:fontFamily="sans-serif"
-                    android:text="Podemos hacer una gran señal sobre el terreno con elementos que contrasten con el fondo y que la hagan claramente visible. Por ejemplo podemos escribir en un claro “SOS”.
-
-Sobre una pradera verde podemos preparar la señal cavando una fosa y mantener la tierra amontonada en los bordes para aumentar el efecto de la sombra.
-
-Para que sea perfectamente visible desde el aire, las letras o símbolos que empleemos han de tener al menos unos 10 metros de alto y una separación de unos 3m."
-                    android:textAlignment="inherit"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                    android:textColor="#62B165"
-                    android:textColorHint="#00000000"
-                    android:textColorLink="#000000"
-                    android:textSize="15sp"/>
-
-                <TextView
-                    android:id="@+id/espacio4"
-                    android:layout_width="207dp"
-                    android:layout_height="10dp"
-                    android:background="#004CAF50"
-                    android:text=""
-                    android:textAlignment="center"
-                    android:textColor="@color/white"
-                    android:textSize="24sp"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    tools:visibility="invisible" />
-
-                <TextView
-                    android:id="@+id/titulo3"
-                    android:layout_width="358dp"
-                    android:layout_height="match_parent"
-                    android:background="#00FFFFFF"
-                    android:fontFamily="sans-serif-black"
-                    android:text="Cómo hacer señales de auxilio con espejos (heliógrafo)"
-                    android:textAlignment="inherit"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                    android:textColor="#62B165"
-                    android:textColorHint="#00000000"
-                    android:textColorLink="#000000"
-                    android:textSize="20sp" />
-
-                <TextView
-                    android:id="@+id/text4"
-                    android:layout_width="358dp"
-                    android:layout_height="match_parent"
-                    android:background="#00FFFFFF"
-                    android:fontFamily="sans-serif"
-                    android:text="Cuando hace sol, utilizar un espejo para hacer señales es eficaz a muchos kilómetros de distancia, pero debemos hacerlo correctamente. Necesitaremos una superficie reflectante por las dos caras, como un trozo de lata, a la que le haremos un agujero en el centro. Mirando por el agujero apuntaremos al avión en el cielo con el heliógrafo a un palmo de nuestro rostro. En la cara reflectante que tenemos ante nosotros veremos el punto de luz del sol que entra por el agujero y se refleja en nuestra cara o nuestra ropa. Debemos ahora mover el heliógrafo hasta introducir dentro del agujero ese punto que vemos reflejado sin dejar de ver el avión por dicho agujero."
-                    android:textAlignment="inherit"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                    android:textColor="#62B165"
-                    android:textColorHint="#00000000"
-                    android:textColorLink="#000000"
-                    android:textSize="15sp"/>
-                <ImageView
-                    android:id="@+id/imageView1"
-                    android:layout_width="345dp"
-                    android:layout_height="140dp"
-                    app:srcCompat="@drawable/senales_de_auxilio_con_espejo" />
-
-
-
-                <TextView
-                    android:id="@+id/espacio5"
-                    android:layout_width="207dp"
-                    android:layout_height="10dp"
-                    android:background="#004CAF50"
-                    android:text=""
-                    android:textAlignment="center"
-                    android:textColor="@color/white"
-                    android:textSize="24sp"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    tools:visibility="invisible" />
+                    android:id="@+id/imageView7"
+                    android:layout_width="360dp"
+                    android:layout_height="146dp"
+                    app:srcCompat="@drawable/pexels_bruno_scramgnon_58575911" />
 
             </LinearLayout>
         </ScrollView>
