@@ -25,7 +25,7 @@ public class herramientas extends AppCompatActivity {
     }
 
     public void Emergencias(View view) {
-        Intent eme = new Intent(this, linterna.class);
+        Intent eme = new Intent(this, Llamar.class);
         startActivity(eme);
     }
 

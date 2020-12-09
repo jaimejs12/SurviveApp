@@ -259,6 +259,7 @@
             <ImageView
                 android:layout_width="219dp"
                 android:layout_height="144dp"
+                android:onClick="Emergencias"
                 android:layout_marginBottom="4dp"
                 android:src="@drawable/emergencias" />
 
@@ -268,6 +269,7 @@
                 android:background="#8F000000"
                 android:fontFamily="@font/roboto_bold"
                 android:text="Emergencias"
+                android:onClick="Emergencias"
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 android:textSize="30sp"
