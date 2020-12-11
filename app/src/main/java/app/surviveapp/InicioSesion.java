@@ -31,7 +31,7 @@ import java.net.URL;
 
 
 public class InicioSesion extends AppCompatActivity {
-
+/*
     private WebView webView;
     // CONNECTION_TIMEOUT and READ_TIMEOUT are in milliseconds
     public static final int CONNECTION_TIMEOUT=10000;
@@ -203,9 +203,6 @@ public class InicioSesion extends AppCompatActivity {
 
             if(result.equalsIgnoreCase("true"))
             {
-                /* Here launching another activity when login successful. If you persist login state
-                use sharedPreferences of Android. and logout button to clear sharedPreferences.
-                 */
 
                 Intent intent = new Intent(InicioSesion.this,MainActivity.class); //Inicio sesion -> siguiente pantalla
                 startActivity(intent);
@@ -224,5 +221,5 @@ public class InicioSesion extends AppCompatActivity {
         }
 
     }
-
+*/
 }
