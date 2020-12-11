@@ -24,21 +24,16 @@ public class Inicio extends AppCompatActivity {
 
         webView =(WebView) findViewById(R.id.webview);
         webView.setWebViewClient(new WebViewClient());
-        webView.loadUrl("http://192.168.43.199");
+        webView.loadUrl("https://surviveapp.clanjhoo.com:4433");
         WebSettings webSettings = webView.getSettings();
         webSettings.setJavaScriptEnabled(true);
-    }
-
-    @Override
-    public void onBackPressed() {
-
     }
 
     @Override
     public void onUserInteraction() {
         super.onUserInteraction();
         String s = webView.getUrl();
-        if(s.equals("http://192.168.43.199/iniciocorrecto.php")) {
+        if(s.equals("https://surviveapp.clanjhoo.com:4433/iniciocorrecto.php")) {
             Intent main = new Intent(this, MainActivity.class);
             startActivity(main);
         }
