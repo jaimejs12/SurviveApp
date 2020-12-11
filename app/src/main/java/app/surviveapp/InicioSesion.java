@@ -21,7 +21,7 @@ public class InicioSesion extends AppCompatActivity {
 
         webView =(WebView) findViewById(R.id.webview);
         webView.setWebViewClient(new WebViewClient());
-        webView.loadUrl("http://192.168.0.157");
+        webView.loadUrl("https://www.surviveapp.com");
         WebSettings webSettings = webView.getSettings();
         webSettings.setJavaScriptEnabled(true);
     }
@@ -36,7 +36,7 @@ public class InicioSesion extends AppCompatActivity {
     public void onUserInteraction() {
         super.onUserInteraction();
         String s = webView.getUrl();
-        if(s.equals("http://192.168.0.157/iniciocorrecto.php")) {
+        if(s.equals("https://192.168.0.173/iniciocorrecto.php")) {
             Intent main = new Intent(this, MainActivity.class);
             startActivity(main);
         }
