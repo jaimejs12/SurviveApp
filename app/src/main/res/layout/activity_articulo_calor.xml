@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C8E6C9"
+    tools:context=".articulo_calor">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".SplashScreenActivity">
+
+        <TextView
+            android:id="@+id/menuguía"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:background="#C1FFFFFF"
+            android:backgroundTint="#3E3C3C"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="center"
+            android:text="Protegerse del calor"
+            android:textAlignment="center"
+            android:textSize="22sp"
+            tools:ignore="MissingConstraints" />
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/menuguía"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="19dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="18dp"
+            android:background="#A8FFFFFF"
+            android:cacheColorHint="#000000">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/titulo1"
+                    android:layout_width="358dp"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Decálogo para protegerse del calor"
+                    android:textAlignment="inherit"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#62B165"
+                    android:textColorHint="#00000000"
+                    android:textColorLink="#000000"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/text1"
+                    android:layout_width="358dp"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:fontFamily="sans-serif"
+                    android:text="1. Permanecer a la sombra y protegernos del sol con gafas, sombreros y gorras."
+                    android:textAlignment="inherit"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#62B165"
+                    android:textColorHint="#00000000"
+                    android:textColorLink="#000000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:id="@+id/text2"
+                    android:layout_width="358dp"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:fontFamily="sans-serif"
+                    android:text="2. Hidratarnos con frecuencia bebiendo mucha agua y zumos naturales, no embasados, aunque no tengamos sed. No hay que abusar de las bebidas con cafeína, alcohol o con grandes cantidades de azúcar. Salvo contraindicación médica, debemos ingerir al menos litro y medio diario."
+                    android:textAlignment="inherit"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#62B165"
+                    android:textColorHint="#00000000"
+                    android:textColorLink="#000000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:id="@+id/text_2"
+                    android:layout_width="358dp"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:fontFamily="sans-serif"
+                    android:text="3. Realizar comidas ligeras que ayuden a reponer las sales perdidas con el sudor: sopas frías, ensaladas, frutas y verduras..."
+                    android:textAlignment="inherit"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#62B165"
+                    android:textColorHint="#00000000"
+                    android:textColorLink="#000000"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:id="@+id/text_3"
+                    android:layout_width="358dp"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:fontFamily="sans-serif"
+                    android:text="4. Aplicarse siempre protector solar. Extender la crema 30 minutos antes y elegir un factor de protección alto, como mínimo un SPF15."
+                    android:textAlignment="inherit"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#62B165"
+                    android:textColorHint="#00000000"
+                    android:textColorLink="#000000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:id="@+id/text_1"
+                    android:layout_width="358dp"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:fontFamily="sans-serif"
+                    android:text="5. Usar ropa ligera, holgada y transpirable. Lo mejor son los tejidos naturales como el lino y el algodón. "
+                    android:textAlignment="inherit"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#62B165"
+                    android:textColorHint="#00000000"
+                    android:textColorLink="#000000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:id="@+id/text_4"
+                    android:layout_width="358dp"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:fontFamily="sans-serif"
+                    android:text="6. Si en algún momento nos encontramos mal hay que parar y pedir ayuda."
+                    android:textAlignment="inherit"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#62B165"
+                    android:textColorHint="#00000000"
+                    android:textColorLink="#000000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:id="@+id/text_5"
+                    android:layout_width="358dp"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:fontFamily="sans-serif"
+                    android:text="5. Realizar comidas ligeras que ayuden a reponer las sales perdidas con el sudor: sopas frías, ensaladas, frutas y verduras..."
+                    android:textAlignment="inherit"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#62B165"
+                    android:textColorHint="#00000000"
+                    android:textColorLink="#000000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:id="@+id/espacio3"
+                    android:layout_width="207dp"
+                    android:layout_height="10dp"
+                    android:background="#004CAF50"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:visibility="invisible" />
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="360dp"
+                    android:layout_height="146dp"
+                    app:srcCompat="@drawable/pexels_bruno_scramgnon_58575911" />
+
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

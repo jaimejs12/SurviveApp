@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C8E6C9"
+    tools:context=".articulo_fuego">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".SplashScreenActivity">
+
+        <TextView
+            android:id="@+id/titulofuego"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:background="#C1FFFFFF"
+            android:backgroundTint="#3E3C3C"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="center"
+            android:text="Hacer fuego"
+            android:textAlignment="center"
+            android:textSize="22sp"
+            tools:ignore="MissingConstraints" />
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/titulofuego"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="19dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="18dp"
+            android:background="#A8FFFFFF"
+            android:cacheColorHint="#000000">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/refugio"
+                    android:layout_width="358dp"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:fontFamily="sans-serif"
+                    android:text="Es importante para poder hacer fuego que tengamos los conocimientos suficientes, pero también yesca. La yesca es hojarasca, hierba seca, etc. y estando bien compactada, la brasa podrá propagarse con gran facilidad. También se recomienda tener leña fina y seca para poder iniciar el fuego uniendo con un soplido para avivar la llama."
+                    android:textAlignment="inherit"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#62B165"
+                    android:textColorHint="#00000000"
+                    android:textColorLink="#000000"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:id="@+id/espacio1"
+                    android:layout_width="207dp"
+                    android:layout_height="10dp"
+                    android:background="#004CAF50"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:visibility="invisible" />
+
+                <TextView
+                    android:id="@+id/titulo1"
+                    android:layout_width="358dp"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:fontFamily="sans-serif-black"
+                    android:text="¿Qué métodos podemos poner en marcha para hacer fuego?"
+                    android:textAlignment="inherit"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#62B165"
+                    android:textColorHint="#00000000"
+                    android:textColorLink="#000000"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/text1"
+                    android:layout_width="358dp"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:fontFamily="sans-serif"
+                    android:text="Comencemos por uno de los más conocidos, efectivos y quizá complejos, el arco de rodamiento indio. Se trata de un conocido sistema de fricción para lo que hay que tener fuerza y resistencia. Este fuego consiste en girar rápidamente una vara con ayuda de un arco sobre el trozo de madera.
+
+Para ello, construiremos un arco con madera flexible, como la del castaño. La cuerda podremos hacerla con el cordón del calzado. En este caso, la madera blanda habrá que frotarla con la madera dura, así sí funcionará.
+
+Un consejo: si al ir frotando conseguimos un polvo negro similar al carbón, hemos elegido bien. De lo contrario, si el polvillo es de color arena, hay que buscar otra clase de madera. Si seguimos, perderemos el tiempo y nos cansaremos.
+
+Cuando llevemos un buen rato frotando y comience a salir humo, incorporaremos la yesca compactada. Esto hará que la brasa se propague con rapidez. Además, soplaremos suavemente mientras seguimos frotando para que salga una llama y encendamos el fuego."
+                    android:textAlignment="inherit"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#62B165"
+                    android:textColorHint="#00000000"
+                    android:textColorLink="#000000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:id="@+id/espacio3"
+                    android:layout_width="207dp"
+                    android:layout_height="10dp"
+                    android:background="#004CAF50"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:visibility="invisible" />
+
+                <TextView
+                    android:id="@+id/titulo2"
+                    android:layout_width="358dp"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:fontFamily="sans-serif-black"
+                    android:text="El sol y la lupa o cristales"
+                    android:textAlignment="inherit"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#62B165"
+                    android:textColorHint="#00000000"
+                    android:textColorLink="#000000"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/text3"
+                    android:layout_width="358dp"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:fontFamily="sans-serif"
+                    android:text="Otro método más fácil es utilizar el poder del sol para prender fuego a la yesca. Esto podemos hacerlo con una lupa, los prismáticos, algunas gafas de sol o la lente de una cámara de fotos. Antes de ponerse manos a la obra, hay que preparar una buena yesca que prenda fácilmente.
+
+Cuando esté preparada, pondremos la lupa o el cristal cerca de la yesca. Haremos que el sol incida sobre él y que el punto que se cree apunte directamente a la yesca. En un rato, si todo va bien, tendremos brasa creada. Solo habrá que soplar e incorporar la madera fina para que arda más rápido. Es aquí cuando se puede incorporar la madera e ir avivando el fuego hasta conseguir nuestro objetivo: hacer fuego."
+                    android:textAlignment="inherit"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#62B165"
+                    android:textColorHint="#00000000"
+                    android:textColorLink="#000000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:id="@+id/espacio4"
+                    android:layout_width="207dp"
+                    android:layout_height="10dp"
+                    android:background="#004CAF50"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:visibility="invisible" />
+
+                <TextView
+                    android:id="@+id/titulo5"
+                    android:layout_width="358dp"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Una rama y un cordón pueden suficiente para hacer fuego"
+                    android:textAlignment="inherit"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#62B165"
+                    android:textColorHint="#00000000"
+                    android:textColorLink="#000000"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/text5"
+                    android:layout_width="358dp"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:fontFamily="sans-serif"
+                    android:text="Si tenemos una tira de fibra o una rama de madera blanca, podremos emplear otro método. Tendremos que elevar la rama blanda del suelo, colocándola sobre dos piedras a cada extremo. Pasaremos la fibra por debajo de la rama e iremos dando tirones, primero de un lado y luego de otro para que se produzca una fricción. En este caso, no hay que olvidarse de colocar la yesca en la parte inferior. De esta forma, la fricción podrá provocar el suficiente calor para producir fuego."
+                    android:textAlignment="inherit"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#62B165"
+                    android:textColorHint="#00000000"
+                    android:textColorLink="#000000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:id="@+id/espacio6"
+                    android:layout_width="207dp"
+                    android:layout_height="10dp"
+                    android:background="#004CAF50"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:visibility="invisible" />
+
+                <TextView
+                    android:id="@+id/titulo6"
+                    android:layout_width="358dp"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Pedernal o piedras para hacer fuego"
+                    android:textAlignment="inherit"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#62B165"
+                    android:textColorHint="#00000000"
+                    android:textColorLink="#000000"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/text6"
+                    android:layout_width="358dp"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:fontFamily="sans-serif"
+                    android:text="En tiendas de supervivencia o material para camping, se puede adquirir un pedernal. Un pedernal es un sistema que funciona incluso cuando llueve. Solo tendremos que tener la yesca preparada y frotar el dispositivo que viene con el pedernal. Conseguiremos una chispa de manera rápida, fácil y segura. También puede frotarse contra un trozo de acero como la hoja de un cuchillo.
+
+Si no tenemos pedernal, podemos intentar hacer chispa con dos piedras que sean muy duras. Habrá que tener fuerza, sujetar bien las piedras y mucha paciencia porque no siempre se consigue la chispa a la primera. Lo mejor es practicar con antelación y saber cómo conseguir sacar chispa de determinadas piedras."
+                    android:textAlignment="inherit"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#62B165"
+                    android:textColorHint="#00000000"
+                    android:textColorLink="#000000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:id="@+id/espacio7"
+                    android:layout_width="207dp"
+                    android:layout_height="10dp"
+                    android:background="#004CAF50"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:visibility="invisible" />
+
+                <TextView
+                    android:id="@+id/titulo7"
+                    android:layout_width="358dp"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Probando el estilo de la sierra"
+                    android:textAlignment="inherit"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#62B165"
+                    android:textColorHint="#00000000"
+                    android:textColorLink="#000000"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/text7"
+                    android:layout_width="358dp"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:fontFamily="sans-serif"
+                    android:text="Usando una madera blanda, como por ejemplo el bambú, comenzaremos a serrar contra una madera dura. Puede ser cáscara de coco o una madera bien densa como la del roble, por ejemplo. Para la yesca podemos usar hojas o hierba seca que pueda propagar el fuego. Puede dar bastante trabajo y es otro de los métodos en los que hay que practicar bastante."
+                    android:textAlignment="inherit"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#62B165"
+                    android:textColorHint="#00000000"
+                    android:textColorLink="#000000"
+                    android:textSize="15sp"/>
+
+
+                <TextView
+                    android:id="@+id/espacio8"
+                    android:layout_width="207dp"
+                    android:layout_height="10dp"
+                    android:background="#004CAF50"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:visibility="invisible" />
+
+
+
+            </LinearLayout>
+        </ScrollView>
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

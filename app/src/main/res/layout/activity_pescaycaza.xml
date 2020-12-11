@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#C8E6C9"
+    android:layout_height="match_parent"
+    tools:context=".pescaycaza">
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="367dp"
+        android:layout_height="wrap_content"
+        android:alpha="0.6"
+        android:background="#000000"
+        android:fontFamily="@font/roboto_bold"
+        android:text="SurviveApp"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <ScrollView
+        android:id="@+id/scrollView4"
+        android:layout_width="359dp"
+        android:layout_height="504dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.335">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="370dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="@font/roboto_thin"
+                android:text="Ahora veremos todos los métodos para cazar y pescar. "
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="370dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="@font/roboto_thin"
+                android:text="Pesca a mano: es un sistema prohibido en muchos lugares, entre ellos España, muy efectivo en aguas poco profundas en cuanto
+se adquiere un poco de prácctica. Mejor no realizarlo donde haya animales peligrosos (anguilas eléctricas, serpientes acuáticas venenosas...).
+Consisteen introducir la mano con cuidado bajo las piedra, raíces u oquedades donde acostumbran a ocultarse los peces en busca del vientre de los animales.
+Deslizaremos la mano suavemente hacia las branquias u hundiremos en ellas los dedos pulgar e índice para capturarlos."
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="18dp" />
+
+
+            <TextView
+                android:layout_width="370dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="@font/roboto_thin"
+                android:text="Pesca con caña: En general, las mejores horas para pescar son la mañana temprano y al atardecer. Cuando se aproxima una
+tormenta también puede ser un buen momento, si bien, los peces pueden picar a cualquier hora del día o de la noche."
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="18dp" />
+
+
+            <TextView
+                android:layout_width="370dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="@font/roboto_thin"
+                android:text="Si no tenemos sedal y/o anzuelos tendremos que improvisarlos. Como sedal es más fácil emplear hilo de nuestras ropas que improvisar un cordoncillo con fibras vegetales (de ortiga, cardo…)."
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="18dp" />
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="VolverMenu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.041"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022"
+        app:srcCompat="@drawable/abc_vector_test" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
