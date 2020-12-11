@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C8E6C9"
+    tools:context=".ComoOrientarseSol">
+
+
+    <TextView
+        android:id="@+id/menusol"
+        android:layout_width="417dp"
+        android:layout_height="48dp"
+        android:alpha="0.6"
+        android:background="#000000"
+        android:fontFamily="@font/roboto_bold"
+        android:text="Sol"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="volver"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.067"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022"
+        app:srcCompat="@drawable/abc_vector_test" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="370dp"
+        android:layout_height="600dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/menusol"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="4dp"
+                android:fontFamily="@font/roboto_bold"
+                android:text="Cuando no orientamos con el Sol tenemos que tener en cuenta es si estamos en el hemisferio Sur o en el hemisferio Norte de la Tierra, cualquiera de estos métodos hemos de recalcar que es orientativo, en ausencia de cualquier otro es el mejor, podremos combinarlo con la orientación por indicios. Cuando cambiamos de hemisferio los que están acostumbrados a orientarse por el Sol, pueden sentirse extraños pues las sensaciones son distintas.  Sin ser consciente de ello el Sol nos transmite muchas más información sobre la percepción del día y espacio de lo que nos podemos imaginar, esta información aumenta nuestra seguridad en montaña. Las caras nortes de las montañas en el hemisferio Norte son sombrías contienen más hielo y las relacionamos con vías más difíciles, cuando estamos en el hemisferio Sur es al contrario, las caras Sur son más sombrías, contienen más hielo y las relacionamos con las vías más difíciles. Si nos ponemos mirando al sol de mediodía, en el hemisferio Norte nos indica: el Este a nuestra izquierda, el Oeste a nuestra derecha, el Sur al frente y el Norte a nuestra espalda. Si estamos en el hemisferio Sur, mirando hacia el sol de mediodía, nos indicará el Este a nuestra derecha, el Oeste a nuestra izquierda, el Norte al frente y el Sur a nuestra espalda.  En cualquiera de los dos casos, el Sol siempre sale por el Este. Otro método de orientación con el Sol es clavando un palo en el suelo, marcamos el punto final donde proyecta la sombra y pasado un tiempo volvemos a marcar un punto en el final de la sombra, si unimos estos puntos nos dará la dirección del Oeste hacia la primera marca y el Este hacia la segunda, dependiendo del hemisferio donde estemos ubicados, trazaremos una línea perpendicular a la que conseguimos con la proyección de la sombra y esta nos dará el Sur o el Norte, en dirección al Sol."
+                android:textAlignment="center"
+                android:textColor="#63B854"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/espacio4"
+                android:layout_width="400dp"
+                android:layout_height="37dp"
+                android:background="#004CAF50"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/dibujosol" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

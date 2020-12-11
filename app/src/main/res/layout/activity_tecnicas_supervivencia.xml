@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C8E6C9"
+    tools:context=".Tecnicas_supervivencia">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".SplashScreenActivity">
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="match_parent"
+            android:layout_height="277dp"
+            app:srcCompat="@drawable/pexels_marta_wave_5875883" />
+
+
+        <TextView
+            android:id="@+id/menuguía"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:background="#C1FFFFFF"
+            android:backgroundTint="#3E3C3C"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="center"
+            android:text="Técnicas de Supervivencia"
+            android:textAlignment="center"
+            android:textSize="22sp"
+            tools:ignore="MissingConstraints" />
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="430dp"
+            android:layout_below="@+id/imageView9"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="57dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="55dp"
+            android:layout_marginBottom="17dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="136dp"
+                    android:onClick="PantallaRefugio"
+                    app:srcCompat="@drawable/pexels_min_an_77130811" />
+
+                <TextView
+                    android:id="@+id/refugio"
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:background="#8F000000"
+                    android:fontFamily="@font/roboto_bold"
+                    android:onClick="PantallaRefugio"
+                    android:text="Cómo hacer un refugio"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/espacio1"
+                    android:layout_width="207dp"
+                    android:layout_height="37dp"
+                    android:background="#004CAF50"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:visibility="invisible" />
+
+
+                <ImageView
+                    android:id="@+id/imageView12"
+                    android:layout_width="match_parent"
+                    android:layout_height="138dp"
+                    android:onClick="PantallaFuego"
+                    app:srcCompat="@drawable/pexels_djordje_petrovic_141422211" />
+
+                <TextView
+                    android:id="@+id/fuego"
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:background="#8F000000"
+                    android:onClick="PantallaFuego"
+                    android:fontFamily="@font/roboto_bold"
+                    android:text="Hacer fuego"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/espacio2"
+                    android:layout_width="207dp"
+                    android:layout_height="37dp"
+                    android:background="#004CAF50"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:visibility="invisible" />
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="136dp"
+                    android:onClick="PantallaAgua"
+                    app:srcCompat="@drawable/pexels_jens_johnsson_6609012" />
+
+                <TextView
+                    android:id="@+id/agua"
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:background="#8F000000"
+                    android:fontFamily="@font/roboto_bold"
+                    android:onClick="PantallaAgua"
+                    android:text="Obtener agua potable"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/espacio3"
+                    android:layout_width="207dp"
+                    android:layout_height="37dp"
+                    android:background="#004CAF50"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:visibility="invisible" />
+
+                <ImageView
+                    android:id="@+id/imageView14"
+                    android:layout_width="match_parent"
+                    android:onClick="PantallaRescate"
+                    android:layout_height="129dp"
+                    app:srcCompat="@drawable/pexels_kony_xyzx_370663611" />
+
+                <TextView
+                    android:id="@+id/señales"
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:background="#8F000000"
+                    android:fontFamily="@font/roboto_bold"
+                    android:onClick="PantallaRescate"
+                    android:text="Señales de rescate"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/espacio4"
+                    android:layout_width="207dp"
+                    android:layout_height="37dp"
+                    android:background="#004CAF50"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:visibility="invisible" />
+
+                <ImageView
+                    android:id="@+id/imageView15"
+                    android:layout_width="match_parent"
+                    android:layout_height="159dp"
+                    android:onClick="PantallaFrio"
+                    app:srcCompat="@drawable/frigid_65165_760x55011" />
+
+                <TextView
+                    android:id="@+id/frio"
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:background="#8F000000"
+                    android:fontFamily="@font/roboto_bold"
+                    android:onClick="PantallaFrio"
+                    android:text="Protegerse del frío"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/espacio5"
+                    android:layout_width="207dp"
+                    android:layout_height="37dp"
+                    android:background="#004CAF50"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:visibility="invisible" />
+
+                <ImageView
+                    android:id="@+id/imageView16"
+                    android:layout_width="match_parent"
+                    android:onClick="PantallaCalor"
+                    android:layout_height="128dp"
+                    app:srcCompat="@drawable/pexels_bruno_scramgnon_58575911" />
+
+                <TextView
+                    android:id="@+id/calor"
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:background="#8F000000"
+                    android:fontFamily="@font/roboto_bold"
+                    android:onClick="PantallaCalor"
+                    android:text="Protegerse del calor"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="24sp" />
+
+            </LinearLayout>
+
+        </ScrollView>
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

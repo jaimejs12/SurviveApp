@@ -4,67 +4,320 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/gradient_backgound"
+    android:background="#C8E6C9"
     tools:context=".herramientas">
 
+
+
+
     <TextView
-        android:id="@+id/textView4"
-        android:layout_width="360dp"
-        android:layout_height="47dp"
+        android:id="@+id/atextView4"
+        android:layout_width="384dp"
+        android:layout_height="48dp"
         android:alpha="0.6"
-        android:background="@drawable/bordesredondeados2"
-        android:fontFamily="cursive"
+        android:background="#000000"
+        android:fontFamily="@font/roboto_bold"
         android:text="Herramientas y útiles"
         android:textAlignment="center"
-        android:textColor="#ffffff"
-        android:textSize="36sp"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="39dp"
+        android:layout_height="43dp"
+        android:onClick="volver"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.007"
+        app:srcCompat="@drawable/abc_vector_test" />
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="144dp"
-        android:onClick="Silbato"
-        android:text="Silbato"
+    <ScrollView
+        android:id="@+id/scrollView5"
+        android:layout_width="309dp"
+        android:layout_height="625dp"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="51dp"
+        android:layout_marginBottom="32dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/textView3"
-        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.313" />
+        app:layout_constraintTop_toBottomOf="@+id/atextView4"
+        app:layout_constraintVertical_bias="0.545">
 
-    <Button
-        android:id="@+id/button6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="144dp"
-        android:onClick="Linterna"
-        android:text="Linterna"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/textView3"
-        app:layout_constraintHorizontal_bias="0.482"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.566" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
 
-    <Button
-        android:id="@+id/button5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="144dp"
-        android:onClick="Luces"
-        android:text="Luces"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/textView3"
-        app:layout_constraintHorizontal_bias="0.485"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.442" />
+
+            <TextView
+                android:id="@+id/espacio3"
+                android:layout_width="360dp"
+                android:layout_height="37dp"
+                android:background="#004CAF50"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/sol"
+                android:layout_width="219dp"
+                android:layout_height="144dp"
+                android:layout_marginBottom="4dp"
+                android:src="@drawable/geolocalizacion" />
+
+            <TextView
+                android:layout_width="217dp"
+                android:layout_height="37dp"
+                android:background="#8F000000"
+                android:fontFamily="@font/roboto_bold"
+                android:text="Geolocalizacion"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/espacio1"
+                android:layout_width="207dp"
+                android:layout_height="37dp"
+                android:background="#004CAF50"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:visibility="invisible" />
+
+
+            <ImageView
+                android:layout_width="217dp"
+                android:layout_height="170dp"
+                android:src="@drawable/brujula"
+                tools:visibility="visible" />
+
+            <TextView
+                android:layout_width="217dp"
+                android:layout_height="37dp"
+                android:background="#8F000000"
+                android:fontFamily="@font/roboto_bold"
+                android:text="Brujula"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:layout_width="207dp"
+                android:layout_height="37dp"
+                android:background="#00000000"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:visibility="invisible" />
+
+            <ImageView
+                android:layout_width="327dp"
+                android:layout_height="163dp"
+                android:onClick="Luces"
+                android:src="@drawable/l"
+                tools:visibility="visible" />
+
+            <TextView
+                android:layout_width="217dp"
+                android:layout_height="37dp"
+                android:background="#8F000000"
+                android:fontFamily="@font/roboto_bold"
+                android:onClick="Luces"
+                android:text="Luces"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <TextView
+                android:layout_width="207dp"
+                android:layout_height="37dp"
+                android:background="#00000000"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:visibility="invisible" />
+
+
+            <ImageView
+                android:layout_width="219dp"
+                android:layout_height="144dp"
+                android:layout_marginBottom="4dp"
+                android:onClick="Linterna"
+                android:src="@drawable/linterna" />
+
+            <TextView
+                android:layout_width="217dp"
+                android:layout_height="37dp"
+                android:background="#8F000000"
+                android:fontFamily="@font/roboto_bold"
+                android:onClick="Linterna"
+                android:text="Linterna"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:layout_width="207dp"
+                android:layout_height="37dp"
+                android:background="#00000000"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:visibility="invisible" />
+
+            <ImageView
+                android:layout_width="219dp"
+                android:layout_height="144dp"
+                android:layout_marginBottom="4dp"
+                android:onClick="Silbato"
+                android:src="@drawable/silbato" />
+
+            <TextView
+                android:layout_width="217dp"
+                android:layout_height="37dp"
+                android:background="#8F000000"
+                android:fontFamily="@font/roboto_bold"
+                android:onClick="Silbato"
+                android:text="Silbato"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <TextView
+                android:layout_width="207dp"
+                android:layout_height="37dp"
+                android:background="#00000000"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:visibility="invisible" />
+
+            <ImageView
+                android:layout_width="219dp"
+                android:layout_height="144dp"
+                android:onClick="Emergencias"
+                android:layout_marginBottom="4dp"
+                android:src="@drawable/emergencias" />
+
+            <TextView
+                android:layout_width="217dp"
+                android:layout_height="37dp"
+                android:background="#8F000000"
+                android:fontFamily="@font/roboto_bold"
+                android:text="Emergencias"
+                android:onClick="Emergencias"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <TextView
+                android:layout_width="207dp"
+                android:layout_height="37dp"
+                android:background="#00000000"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:visibility="invisible" />
+
+            <ImageView
+                android:layout_width="219dp"
+                android:layout_height="144dp"
+                android:layout_marginBottom="4dp"
+                android:onClick="Clima"
+                android:src="@drawable/clima" />
+
+            <TextView
+                android:layout_width="217dp"
+                android:layout_height="37dp"
+                android:background="#8F000000"
+                android:fontFamily="@font/roboto_bold"
+                android:onClick="Clima"
+                android:text="Clima"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

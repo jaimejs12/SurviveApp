@@ -4,25 +4,208 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/gradient_backgound"
+    android:background="#C8E6C9"
     tools:context=".guia_y_manual">
 
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="358dp"
-        android:layout_height="91dp"
-        android:alpha="0.6"
-        android:background="@drawable/bordesredondeados2"
-        android:fontFamily="cursive"
-        android:text="Guía y Manual de Supervivencia"
-        android:textAlignment="center"
-        android:textColor="#ffffff"
-        android:textSize="36sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".SplashScreenActivity">
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="match_parent"
+            android:layout_height="274dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="0dp"
+            app:srcCompat="@drawable/pexels_iconcom_878251" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="408dp"
+            android:layout_height="364dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="298dp"
+            android:layout_marginBottom="68dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints">
+
+
+            <TextView
+                android:id="@+id/tecnicaSupervivencia"
+                android:layout_width="341dp"
+                android:layout_height="38dp"
+                android:background="#C8606060"
+                android:onClick="PantallaTecnicas"
+                android:shadowColor="#FFFFFF"
+                android:text="Técnicas de Supervivencia"
+                android:textColor="@color/white"
+                android:textSize="22sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.331"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.348" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.2dp"
+                android:background="@android:color/darker_gray"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/ComoOrientarse"
+                android:layout_width="341dp"
+                android:layout_height="38dp"
+                android:background="#C6606060"
+                android:shadowColor="#FFFFFF"
+                android:text="Cómo orientarse"
+                android:textColor="@color/white"
+                android:textSize="22sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.331"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.348" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.2dp"
+                android:background="@android:color/darker_gray"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/ConseguirAlimentos"
+                android:layout_width="341dp"
+                android:layout_height="38dp"
+                android:background="#C6606060"
+                android:shadowColor="#FFFFFF"
+                android:text="Conseguir alimentos"
+                android:textColor="@color/white"
+                android:textSize="22sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.331"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.348" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.2dp"
+                android:background="@android:color/darker_gray"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/KitSupervivencia"
+                android:layout_width="341dp"
+                android:layout_height="38dp"
+                android:background="#C7606060"
+                android:shadowColor="#FFFFFF"
+                android:text="Kit de Supervivencia"
+                android:textColor="@color/white"
+                android:textSize="22sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.331"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.348" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.2dp"
+                android:background="@android:color/darker_gray"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/AfrontarAccidentes"
+                android:layout_width="341dp"
+                android:layout_height="38dp"
+                android:background="#C7606060"
+                android:shadowColor="#FFFFFF"
+                android:text="Cómo afrontar accidentes"
+                android:textColor="@color/white"
+                android:textSize="22sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.331"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.348" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.2dp"
+                android:background="@android:color/darker_gray"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/CurarHeridas"
+                android:layout_width="341dp"
+                android:layout_height="38dp"
+                android:background="#C6606060"
+                android:shadowColor="#FFFFFF"
+                android:text="Curar heridas"
+                android:textColor="@color/white"
+                android:textSize="22sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.331"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.348" />
+
+            <View
+                android:id="@+id/separator"
+                android:layout_width="fill_parent"
+                android:layout_height="0.2dp"
+                android:background="@android:color/darker_gray"
+                android:visibility="visible" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/menuguía"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:background="#C1FFFFFF"
+            android:backgroundTint="#3E3C3C"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="center"
+            android:text="Guía y Manual de Supervivencia"
+            android:textAlignment="center"
+            android:textSize="22sp"
+            tools:ignore="MissingConstraints" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="157dp"
+        android:layout_marginTop="93dp"
+        android:layout_marginEnd="167dp"
+        android:onClick="aaa"
+        android:text="Button"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/atextView4" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C8E6C9"
+    tools:context=".articulo_frio">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".SplashScreenActivity">
+
+        <TextView
+            android:id="@+id/menuguía"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:background="#C1FFFFFF"
+            android:backgroundTint="#3E3C3C"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="center"
+            android:text="Protegerse del frío"
+            android:textAlignment="center"
+            android:textSize="22sp"
+            tools:ignore="MissingConstraints" />
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/menuguía"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="19dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="18dp"
+            android:background="#A8FFFFFF"
+            android:cacheColorHint="#000000">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/refugio"
+                    android:layout_width="358dp"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:fontFamily="sans-serif"
+                    android:text="Dormir al aire libre ciertamente es una experiencia diferente, pero eso no quiere decir que siempre resulte placentera. Si a veces es difícil conciliar el sueño en la comodidad de nuestra cama, imagina estar a la intemperie. Lo ideal es salir preparados para no privarnos de nuevas vivencias y disfrutarlas tanto como sea posible. "
+                    android:textAlignment="inherit"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#62B165"
+                    android:textColorHint="#00000000"
+                    android:textColorLink="#000000"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:id="@+id/espacio1"
+                    android:layout_width="207dp"
+                    android:layout_height="10dp"
+                    android:background="#004CAF50"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:visibility="invisible" />
+
+                <TextView
+                    android:id="@+id/titulo1"
+                    android:layout_width="358dp"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Acolcha más tu esterilla."
+                    android:textAlignment="inherit"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#62B165"
+                    android:textColorHint="#00000000"
+                    android:textColorLink="#000000"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/text1"
+                    android:layout_width="358dp"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:fontFamily="sans-serif"
+                    android:text="Bastará con colocar un equipo extra debajo de la almohadilla, de manera que haya más amortiguación entre la persona y el suelo. Como la idea es ir preparados, pero no excesivamente cargados, serían de gran utilidad unas esterillas inflables o de espuma, que ofrezcan un gran aislamiento, podremos encontrar gran varidad en el mercado."
+                    android:textAlignment="inherit"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#62B165"
+                    android:textColorHint="#00000000"
+                    android:textColorLink="#000000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:id="@+id/espacio3"
+                    android:layout_width="207dp"
+                    android:layout_height="10dp"
+                    android:background="#004CAF50"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:visibility="invisible" />
+
+                <TextView
+                    android:id="@+id/titulo2"
+                    android:layout_width="358dp"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Una botella de agua caliente."
+                    android:textAlignment="inherit"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#62B165"
+                    android:textColorHint="#00000000"
+                    android:textColorLink="#000000"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/text3"
+                    android:layout_width="358dp"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:fontFamily="sans-serif"
+                    android:text="Ayuda a que el saco esté caliente durante más tiempo, a pesar de lo fría que pueda estar la tienda de campaña. Sirve una botella plástica, de esas que traen agua, jugo o gaseosa. La ubicamos entre las piernas, al tacto con la arteria femoral y a una temperatura que tu cuerpo tolere. Esto se traduce en descanso seguro.
+
+Si no queremos colocar una botella de agua entre las piernas, porque nos resulta incómodo, también está la alternativa de verter agua hirviendo en un frasco plástico, cerrarlo y ponerlo en el fondo de la bolsa, quizás cubierto con algún paño, para que mantenga el área tibia y no sintamos frío."
+                    android:textAlignment="inherit"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#62B165"
+                    android:textColorHint="#00000000"
+                    android:textColorLink="#000000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:id="@+id/espacio4"
+                    android:layout_width="207dp"
+                    android:layout_height="10dp"
+                    android:background="#004CAF50"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:visibility="invisible" />
+
+                <TextView
+                    android:id="@+id/titulo3"
+                    android:layout_width="358dp"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Protege tu saco de la humedad"
+                    android:textAlignment="inherit"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#62B165"
+                    android:textColorHint="#00000000"
+                    android:textColorLink="#000000"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/text4"
+                    android:layout_width="358dp"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:fontFamily="sans-serif"
+                    android:text="Hay que mantenerlo seco. Si hemos realizado una caminata bajo la lluvia, piensa en tu saco y protégelo para que no adquiera humedad."
+                    android:textAlignment="inherit"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#62B165"
+                    android:textColorHint="#00000000"
+                    android:textColorLink="#000000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:id="@+id/espacio5"
+                    android:layout_width="207dp"
+                    android:layout_height="10dp"
+                    android:background="#004CAF50"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:visibility="invisible" />
+
+                <TextView
+                    android:id="@+id/titulo4"
+                    android:layout_width="358dp"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Ropa térmica o sintética"
+                    android:textAlignment="inherit"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#62B165"
+                    android:textColorHint="#00000000"
+                    android:textColorLink="#000000"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/text5"
+                    android:layout_width="358dp"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:fontFamily="sans-serif"
+                    android:text="Son perfectas para abrigarnos y no someternos a las bajas temperaturas que congelan el cuerpo. Estas nos ayudarán a dormir calientes.
+Ropa con varias capas, es ideal para dormir en tiendas de campaña y mantenerse caliente. Desde chaquetas, hasta pantalones y calcetines, abrigan para un descanso placentero. Varias capas de ropa fina.
+
+Pasamontañas, guantes y calzones largos colaboran en la retención del calor cuando dormimos en tiendas de campaña."
+                    android:textAlignment="inherit"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#62B165"
+                    android:textColorHint="#00000000"
+                    android:textColorLink="#000000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:id="@+id/espacio6"
+                    android:layout_width="207dp"
+                    android:layout_height="10dp"
+                    android:background="#004CAF50"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:visibility="invisible" />
+
+                <TextView
+                    android:id="@+id/titulo5"
+                    android:layout_width="358dp"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Mantén la circulación."
+                    android:textAlignment="inherit"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#62B165"
+                    android:textColorHint="#00000000"
+                    android:textColorLink="#000000"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/text6"
+                    android:layout_width="358dp"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:fontFamily="sans-serif"
+                    android:text="Si bien hay que protegerse del frío, tampoco podemos entorpecer la circulación. Retira de tu cuerpo toda prenda que contraiga el flujo sanguíneo y le impida dormir cómodo."
+                    android:textAlignment="inherit"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#62B165"
+                    android:textColorHint="#00000000"
+                    android:textColorLink="#000000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:id="@+id/espacio7"
+                    android:layout_width="207dp"
+                    android:layout_height="10dp"
+                    android:background="#004CAF50"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:visibility="invisible" />
+
+                <TextView
+                    android:id="@+id/titulo6"
+                    android:layout_width="358dp"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Ramas y hojas también funcionan"
+                    android:textAlignment="inherit"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#62B165"
+                    android:textColorHint="#00000000"
+                    android:textColorLink="#000000"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/text7"
+                    android:layout_width="358dp"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:fontFamily="sans-serif"
+                    android:text="Si el asunto es que entre lo que llevamos no tenemos suficiente material para aislar la bolsa y que esta nos caliente mientras dormimos, entonces aprovecha las bondades de la naturaleza y opta por hojas y ramas secas. Apila un poco bajo la tienda, los resultados son buenos."
+                    android:textAlignment="inherit"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#62B165"
+                    android:textColorHint="#00000000"
+                    android:textColorLink="#000000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:id="@+id/espacio8"
+                    android:layout_width="207dp"
+                    android:layout_height="10dp"
+                    android:background="#004CAF50"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:visibility="invisible" />
+
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

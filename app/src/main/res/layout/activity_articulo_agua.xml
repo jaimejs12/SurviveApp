@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C8E6C9"
+    tools:context=".articulo_agua">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".SplashScreenActivity">
+
+        <TextView
+            android:id="@+id/menuguía"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:background="#C1FFFFFF"
+            android:backgroundTint="#3E3C3C"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="center"
+            android:text="Obtener agua potale"
+            android:textAlignment="center"
+            android:textSize="22sp"
+            tools:ignore="MissingConstraints" />
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/menuguía"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="19dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="18dp"
+            android:background="#A8FFFFFF"
+            android:cacheColorHint="#000000">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/refugio"
+                    android:layout_width="358dp"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:fontFamily="sans-serif"
+                    android:text="Simplificando y ordenándolos de menor a mayor, los “bichos” que pueden contaminar el agua no tratada y hacernos enfermar son algunos virus, bacterias y parásitos, y pueden producirnos hepatitis, cólera, tifus, amebiasis, giardiasis y otras patologías que pueden ser graves, con deshidratación por vómitos y diarreas, e incluso mortales, en ocasiones extremas. Por lo tanto, debemos asegurarnos de que el agua será potable a la hora de beberla."
+                    android:textAlignment="inherit"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#62B165"
+                    android:textColorHint="#00000000"
+                    android:textColorLink="#000000"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:id="@+id/espacio1"
+                    android:layout_width="207dp"
+                    android:layout_height="10dp"
+                    android:background="#004CAF50"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:visibility="invisible" />
+
+                <TextView
+                    android:id="@+id/titulo1"
+                    android:layout_width="358dp"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:fontFamily="sans-serif-black"
+                    android:text="¿Dónde encontraremos agua?"
+                    android:textAlignment="inherit"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#62B165"
+                    android:textColorHint="#00000000"
+                    android:textColorLink="#000000"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/text1"
+                    android:layout_width="358dp"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:fontFamily="sans-serif"
+                    android:text="El primer aspecto consiste en escoger bien el lugar de dónde vamos a recogerla. Si corre, formando pequeñas cascadas por el terreno o la vegetación, o mejor si brota entre rocas, será preferible que si está estancada.
+
+Antes de llenar el recipiente comprobaremos que en las zonas próximas y superiores no hay excrementos o indicios de estancia de animales o personas, porque pudieran contaminar el agua. Lo cierto es que cuanto más cerca del surgimiento estemos, cabe pensar que más limpia estará, por lo que será mejor un manantial que un riachuelo, y un riachuelo que un lago."
+                    android:textAlignment="inherit"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#62B165"
+                    android:textColorHint="#00000000"
+                    android:textColorLink="#000000"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:id="@+id/espacio2"
+                    android:layout_width="207dp"
+                    android:layout_height="10dp"
+                    android:background="#004CAF50"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:visibility="invisible" />
+
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="345dp"
+                    android:layout_height="140dp"
+                    app:srcCompat="@drawable/manantial_agua_3" />
+
+                <TextView
+                    android:id="@+id/espacio3"
+                    android:layout_width="207dp"
+                    android:layout_height="10dp"
+                    android:background="#004CAF50"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:visibility="invisible" />
+
+                <TextView
+                    android:id="@+id/titulo2"
+                    android:layout_width="358dp"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Cómo tratar el agua"
+                    android:textAlignment="inherit"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#62B165"
+                    android:textColorHint="#00000000"
+                    android:textColorLink="#000000"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/titulo"
+                    android:layout_width="358dp"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Filtrar"
+                    android:textAlignment="inherit"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#62B165"
+                    android:textColorHint="#00000000"
+                    android:textColorLink="#000000"
+                    android:textSize="15sp" />
+                <TextView
+                    android:id="@+id/text3"
+                    android:layout_width="358dp"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:fontFamily="sans-serif"
+                    android:text="Si el agua conseguida está algo turbia, el primer paso será dejarla quieta para que se depositen las partículas más pesadas en el fondo y, después, moviendo lo mínimo el recipiente, pasamos la parte superior limpia, a otro. El segundo paso será filtrarla, utilizando para ello algún papel como el de servilleta o tejidos tupidos. Estos dos procedimientos sencillos nos permiten eliminar lombrices, quistes, huevos de parásitos y protozoos; es decir: los bichos más grandes, pero se nos colarán las bacterias y los virus."
+                    android:textAlignment="inherit"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#62B165"
+                    android:textColorHint="#00000000"
+                    android:textColorLink="#000000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:id="@+id/espacio4"
+                    android:layout_width="207dp"
+                    android:layout_height="10dp"
+                    android:background="#004CAF50"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:visibility="invisible" />
+
+                <TextView
+                    android:id="@+id/titulo3"
+                    android:layout_width="358dp"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Hervir"
+                    android:textAlignment="inherit"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#62B165"
+                    android:textColorHint="#00000000"
+                    android:textColorLink="#000000"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/text4"
+                    android:layout_width="358dp"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:fontFamily="sans-serif"
+                    android:text="A continuación podemos escoger entre medios físicos y medios químicos para potabilizar el agua que necesitamos. El calor ha sido el método más habitual. Hacer hervir el agua durante apenas algún minuto es suficiente para eliminar virus, bacterias, protozoos y gusanos: los riesgos biológicos que nos acechan en el agua no tratada. Pero lo cierto es que incluso temperaturas de apenas 55º a  70º centígrados, mantenidas varios minutos, son suficientes para lograr el mismo efecto."
+                    android:textAlignment="inherit"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#62B165"
+                    android:textColorHint="#00000000"
+                    android:textColorLink="#000000"
+                    android:textSize="15sp"/>
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="345dp"
+                    android:layout_height="140dp"
+                    app:srcCompat="@drawable/herviragua" />
+
+                <TextView
+                    android:id="@+id/espacio5"
+                    android:layout_width="207dp"
+                    android:layout_height="10dp"
+                    android:background="#004CAF50"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:visibility="invisible" />
+
+                <TextView
+                    android:id="@+id/titulo5"
+                    android:layout_width="358dp"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Uso de filtros"
+                    android:textAlignment="inherit"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#62B165"
+                    android:textColorHint="#00000000"
+                    android:textColorLink="#000000"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/text5"
+                    android:layout_width="358dp"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:fontFamily="sans-serif"
+                    android:text="Otro procedimiento interesante en montaña es el uso de filtros. Los hay de muchos tipos, y no todos son igual de eficaces, por lo que debemos utilizar exclusivamente marcas de contrastado prestigio. Lo que hacen es que el agua dudosa o no  potable pase a través de sustancias con poros, como la cerámica o fibras de vidrio. Cuanto menores son los diámetros de sus agujeritos, menos gérmenes serán capaces de atravesarlos y más limpia quedará el agua. Pero los virus son tan pequeños que logran “colarse”.
+
+Para aumentar su eficacia, hay marcas que añaden a su filtro plata, resinas de iodo o carbón activado. Este último ayuda a protegerse también frente  a algunos tipos de sustancias químicas que puede traer el agua. Por lo tanto, es importante informarse sobre las características técnicas del filtro que necesitamos, de la misma forma que conviene saber qué tipo de contaminación cabe esperar en la zona por la que vamos a movernos. No son iguales los riesgos en zonas altas del Pirineo que en los valles de Himalaya, las planicies africanas o las zonas selváticas amazónicas."
+                    android:textAlignment="inherit"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#62B165"
+                    android:textColorHint="#00000000"
+                    android:textColorLink="#000000"
+                    android:textSize="15sp"/>
+
+                   <TextView
+                    android:id="@+id/espacio6"
+                    android:layout_width="207dp"
+                    android:layout_height="10dp"
+                    android:background="#004CAF50"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:visibility="invisible" />
+
+            </LinearLayout>
+        </ScrollView>
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
