@@ -4,17 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/gradient_backgound"
+    android:background="#C8E6C9"
     android:visibility="visible"
     tools:context=".MainActivity">
 
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/atextView4"
         android:layout_width="360dp"
         android:layout_height="47dp"
         android:alpha="0.6"
-        android:background="@drawable/bordesredondeados2"
+        android:background="#000000"
         android:fontFamily="cursive"
         android:text="SurviveApp"
         android:textAlignment="center"

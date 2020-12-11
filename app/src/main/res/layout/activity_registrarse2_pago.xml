@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C8E6C9"
+    tools:context=".registrarse2Pago">
+
+
+    <TextView
+        android:id="@+id/iniciomenu"
+        android:layout_width="404dp"
+        android:layout_height="46dp"
+        android:alpha="0.6"
+        android:background="#000000"
+        android:fontFamily="@font/roboto_bold"
+        android:text="Registrarse"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/createAcount"
+        android:layout_width="404dp"
+        android:layout_height="46dp"
+        android:text="Datos bancarios"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/roboto_bold"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.223" />
+
+
+    <EditText
+        android:id="@+id/nuevousuariotarjeta"
+        android:layout_width="211dp"
+        android:layout_height="47dp"
+        android:fontFamily="@font/roboto_bold"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="18dp"
+        android:hint="Numero de tarjeta"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/nuevousuariocodigotarjeta"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/createAcount" />
+
+    <EditText
+        android:id="@+id/nuevousuariocodigotarjeta"
+        android:layout_width="211dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="18dp"
+        android:hint="Codigo de seguridad"
+        android:fontFamily="@font/roboto_bold"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/nuevousuariofechacaducidad"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nuevousuariotarjeta" />
+
+    <EditText
+        android:id="@+id/nuevousuariofechacaducidad"
+        android:layout_width="211dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="26dp"
+        android:fontFamily="@font/roboto_bold"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="25dp"
+        android:hint="Fecha de caducidad"
+        android:inputType="date"
+        app:layout_constraintBottom_toTopOf="@+id/botonRegistrarse2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nuevousuariocodigotarjeta" />
+
+
+    <Button
+        android:id="@+id/botonRegistrarse2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="149dp"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/roboto_bold"
+        android:layout_marginEnd="149dp"
+        android:layout_marginBottom="221dp"
+        android:onClick="yaregistrado"
+        android:text="Registrarse"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nuevousuariofechacaducidad" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
