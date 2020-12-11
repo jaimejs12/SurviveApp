@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C8E6C9"
+    tools:context=".articulo_refugio">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".SplashScreenActivity">
+
+           <TextView
+                    android:id="@+id/menuguía"
+                    android:layout_width="match_parent"
+                    android:layout_height="47dp"
+                    android:background="#C1FFFFFF"
+                    android:backgroundTint="#3E3C3C"
+                    android:fontFamily="@font/roboto_bold"
+                    android:gravity="center"
+                    android:text="Cómo hacer un refugio"
+                    android:textAlignment="center"
+                    android:textSize="22sp"
+                    tools:ignore="MissingConstraints" />
+
+                <ScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/menuguía"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="19dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="18dp"
+                    android:background="#A8FFFFFF"
+                    android:cacheColorHint="#000000">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical" >
+
+                                <TextView
+                                    android:id="@+id/refugio"
+                                    android:layout_width="358dp"
+                                    android:layout_height="match_parent"
+                                    android:autoText="false"
+                                    android:background="#00FFFFFF"
+                                    android:fontFamily="sans-serif"
+                                    android:text="La función principal de los refugios de supervivencia es protegernos de los peligros de medio ambiente. Un calor extremo puede producir un síncope o un golpe de calor. Por el contrario, el exceso de frío produce hipotermias y congelaciones. En las zonas pantanosas nos pueden devorar los mosquitos. Y si nos calamos hasta los huesos mientras dormimos podemos coger una pulmonía, aparte de la incomodidad, la ausencia de descanso y el golpe contra nuestra moral que esto supone."
+                                    android:textAlignment="inherit"
+                                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                                    android:textColor="#62B165"
+                                    android:textColorHint="#00000000"
+                                    android:textColorLink="#000000"
+                                    android:textSize="15sp"/>
+                            <TextView
+                                android:id="@+id/espacio1"
+                                android:layout_width="207dp"
+                                android:layout_height="10dp"
+                                android:background="#004CAF50"
+                                android:text=""
+                                android:textAlignment="center"
+                                android:textColor="@color/white"
+                                android:textSize="24sp"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                tools:visibility="invisible" />
+
+                            <ImageView
+                                android:id="@+id/imageView10"
+                                android:layout_width="match_parent"
+                                android:layout_height="158dp"
+                                app:srcCompat="@drawable/pexels_kamaji_ogino_506486211" />
+
+                            <TextView
+                                android:id="@+id/espacio2"
+                                android:layout_width="207dp"
+                                android:layout_height="10dp"
+                                android:background="#004CAF50"
+                                android:text=""
+                                android:textAlignment="center"
+                                android:textColor="@color/white"
+                                android:textSize="24sp"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                tools:visibility="invisible" />
+
+                            <TextView
+                                android:id="@+id/titulo1"
+                                android:layout_width="358dp"
+                                android:layout_height="match_parent"
+                                android:background="#00FFFFFF"
+                                android:fontFamily="sans-serif-black"
+                                android:text="Emplazamiento del refugio de supervivencia"
+                                android:textAlignment="inherit"
+                                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                                android:textColor="#62B165"
+                                android:textColorHint="#00000000"
+                                android:textColorLink="#000000"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:id="@+id/text1"
+                                android:layout_width="358dp"
+                                android:layout_height="match_parent"
+                                android:background="#00FFFFFF"
+                                android:fontFamily="sans-serif"
+                                android:text="Evidentemente, buscaremos en lo posible un lugar seco y al abrigo del viento, lejos de aguas estancadas o pantanos para evitar que nos devoren los mosquitos, aunque una fuente cercana o un pequeño curso de agua sería ideal.
+
+Para minimizar los riesgos, es aconsejable huir de las orillas de los ríos. Pues puede sorprendernos una crecida, incluso en tiempo soleado, por la rotura de una presa formada de manera natural a causa de la acumulación de ramas. Eso sucedió no hace mucho en un camping español, que quedó arrasado en cuestión de pocos minutos. La gente murió dentro de sus vehículos y caravanas, que fueron arrastrados por la fuerza de la corriente. Lo mismo se puede decir de los cauces secos de los ríos, que con una tormenta pueden convertirse en torrentes antes de que nos demos cuenta.
+
+También se desaconseja acampar bajo los árboles por el riesgo de que nos caiga una rama encima. Reconozco que yo me salto esta norma con frecuencia, pues los árboles protegen del rocío. Si decides hacer como yo, fíjate bien que no tenga ramas secas que supongan un riesgo pata ti. Evita también los lugares con peligro de desprendimiento de rocas o riesgo de aludes de nieve.
+
+Es importante prestar atención a los alrededores para no darnos cuenta, una vez terminada nuestra construcción, de que tenemos un hormiguero o un avispero como vecinos."
+                                android:textAlignment="inherit"
+                                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                                android:textColor="#62B165"
+                                android:textColorHint="#00000000"
+                                android:textColorLink="#000000"
+                                android:textSize="15sp"/>
+
+                            <TextView
+                                android:id="@+id/espacio3"
+                                android:layout_width="207dp"
+                                android:layout_height="10dp"
+                                android:background="#004CAF50"
+                                android:text=""
+                                android:textAlignment="center"
+                                android:textColor="@color/white"
+                                android:textSize="24sp"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                tools:visibility="invisible" />
+
+                            <TextView
+                                android:id="@+id/titulo2"
+                                android:layout_width="358dp"
+                                android:layout_height="match_parent"
+                                android:background="#00FFFFFF"
+                                android:fontFamily="sans-serif-black"
+                                android:text="El lecho del refugio"
+                                android:textAlignment="inherit"
+                                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                                android:textColor="#62B165"
+                                android:textColorHint="#00000000"
+                                android:textColorLink="#000000"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:id="@+id/text3"
+                                android:layout_width="358dp"
+                                android:layout_height="match_parent"
+                                android:background="#00FFFFFF"
+                                android:fontFamily="sans-serif"
+                                android:text="Es una parte fundamental de nuestro refugio. Debe de ser blando, seco, horizontal y caliente (excepto en el desierto, que será fresco). Esto lo lograremos escogiendo bien el emplazamiento (huir de zonas con humedad), quitando los palos y piedras que pueda haber en el suelo, y aislándonos bien de éste con hojarasca, helechos, ropa, etc."
+                                android:textAlignment="inherit"
+                                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                                android:textColor="#62B165"
+                                android:textColorHint="#00000000"
+                                android:textColorLink="#000000"
+                                android:textSize="15sp"/>
+
+                            <TextView
+                                android:id="@+id/espacio4"
+                                android:layout_width="207dp"
+                                android:layout_height="10dp"
+                                android:background="#004CAF50"
+                                android:text=""
+                                android:textAlignment="center"
+                                android:textColor="@color/white"
+                                android:textSize="24sp"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                tools:visibility="invisible" />
+
+                            <TextView
+                                android:id="@+id/titulo3"
+                                android:layout_width="358dp"
+                                android:layout_height="match_parent"
+                                android:background="#00FFFFFF"
+                                android:fontFamily="sans-serif-black"
+                                android:text="Técnicas para hacer refugios de supervivencia improvisados"
+                                android:textAlignment="inherit"
+                                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                                android:textColor="#62B165"
+                                android:textColorHint="#00000000"
+                                android:textColorLink="#000000"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:id="@+id/titulo4"
+                                android:layout_width="358dp"
+                                android:layout_height="match_parent"
+                                android:background="#00FFFFFF"
+                                android:fontFamily="sans-serif-black"
+                                android:text="Refugio con una lámina de plástico o un tarp"
+                                android:textAlignment="inherit"
+                                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                                android:textColor="#62B165"
+                                android:textColorHint="#00000000"
+                                android:textColorLink="#000000"
+                                android:textSize="15sp" />
+
+                            <TextView
+                                android:id="@+id/text4"
+                                android:layout_width="358dp"
+                                android:layout_height="match_parent"
+                                android:background="#00FFFFFF"
+                                android:fontFamily="sans-serif"
+                                android:text="Si disponemos de una lámina de plástico suficientemente grande podemos improvisar un refugio tendiendo una cuerda entre dos árboles y colocando la lámina como una tienda de campaña clásica. En los extremos envolveremos unas piedras que luego sujetaremos con unas horquillas de madera o las anudaremos y las afirmaremos con cuerdas y piquetas improvisadas con unos palos de madera resistente. Si cavamos una zanja alrededor evitaremos que nos anegue el agua en caso de tormenta. La cantidad de modelos distintos que podemos hacer es enorme."
+                                android:textAlignment="inherit"
+                                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                                android:textColor="#62B165"
+                                android:textColorHint="#00000000"
+                                android:textColorLink="#000000"
+                                android:textSize="15sp"/>
+
+                            <ImageView
+                                android:id="@+id/imageView11"
+                                android:layout_width="345dp"
+                                android:layout_height="140dp"
+                                app:srcCompat="@drawable/refugio_con_lona_plastico_" />
+
+                            <TextView
+                                android:id="@+id/espacio5"
+                                android:layout_width="207dp"
+                                android:layout_height="10dp"
+                                android:background="#004CAF50"
+                                android:text=""
+                                android:textAlignment="center"
+                                android:textColor="@color/white"
+                                android:textSize="24sp"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                tools:visibility="invisible" />
+
+                            <TextView
+                                android:id="@+id/titulo5"
+                                android:layout_width="358dp"
+                                android:layout_height="match_parent"
+                                android:background="#00FFFFFF"
+                                android:fontFamily="sans-serif-black"
+                                android:text="Refugio con un bote salvavidas."
+                                android:textAlignment="inherit"
+                                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                                android:textColor="#62B165"
+                                android:textColorHint="#00000000"
+                                android:textColorLink="#000000"
+                                android:textSize="15sp" />
+
+                            <TextView
+                                android:id="@+id/text5"
+                                android:layout_width="358dp"
+                                android:layout_height="match_parent"
+                                android:background="#00FFFFFF"
+                                android:fontFamily="sans-serif"
+                                android:text="Un bote salvavidas vuelto del revés y elevado por un lateral con ayuda de unos palos constituye un refugio excelente."
+                                android:textAlignment="inherit"
+                                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                                android:textColor="#62B165"
+                                android:textColorHint="#00000000"
+                                android:textColorLink="#000000"
+                                android:textSize="15sp"/>
+
+                            <ImageView
+                                android:id="@+id/imageView12"
+                                android:layout_width="345dp"
+                                android:layout_height="140dp"
+                                app:srcCompat="@drawable/refugios_de_supervivencia" />
+
+                            <TextView
+                                android:id="@+id/espacio6"
+                                android:layout_width="207dp"
+                                android:layout_height="10dp"
+                                android:background="#004CAF50"
+                                android:text=""
+                                android:textAlignment="center"
+                                android:textColor="@color/white"
+                                android:textSize="24sp"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                tools:visibility="invisible" />
+
+                            <TextView
+                                android:id="@+id/titulo6"
+                                android:layout_width="358dp"
+                                android:layout_height="match_parent"
+                                android:background="#00FFFFFF"
+                                android:fontFamily="sans-serif-black"
+                                android:text="Cobertizo"
+                                android:textAlignment="inherit"
+                                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                                android:textColor="#62B165"
+                                android:textColorHint="#00000000"
+                                android:textColorLink="#000000"
+                                android:textSize="15sp" />
+
+                            <TextView
+                                android:id="@+id/text6"
+                                android:layout_width="358dp"
+                                android:layout_height="match_parent"
+                                android:background="#00FFFFFF"
+                                android:fontFamily="sans-serif"
+                                android:text="Es probablemente el más clásico de los refugios de supervivencia. Utiliza un armazón de madera, pero si utilizamos uno o dos árboles como columnas nos ahorraremos mucho trabajo y el refugio ganará en solidez. En climas fríos utilizaremos un fuego para calentarnos y un reflector de troncos detrás para aprovechar mejor el calor. Por ello es importante tener en cuenta la dirección del viento si no queremos terminar ahumados. El techo lo cubriremos de materia vegetal. En algunas zonas es fácil encontrar grandes hojas con las que construir un techo impermeable ensamblándolas a modo de tejas. También se pueden improvisar tejas con trozos de corteza. Si no, un techo de hierba seca y paja, si es lo suficientemente grueso, también nos proporciona cierta impermeabilidad."
+                                android:textAlignment="inherit"
+                                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                                android:textColor="#62B165"
+                                android:textColorHint="#00000000"
+                                android:textColorLink="#000000"
+                                android:textSize="15sp"/>
+
+                            <ImageView
+                                android:id="@+id/imageView13"
+                                android:layout_width="345dp"
+                                android:layout_height="140dp"
+                                app:srcCompat="@drawable/refugios_de_supervivencia_cobertizo" />
+
+                            <TextView
+                                android:id="@+id/espacio7"
+                                android:layout_width="207dp"
+                                android:layout_height="10dp"
+                                android:background="#004CAF50"
+                                android:text=""
+                                android:textAlignment="center"
+                                android:textColor="@color/white"
+                                android:textSize="24sp"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                tools:visibility="invisible" />
+
+                            <TextView
+                                android:id="@+id/titulo7"
+                                android:layout_width="358dp"
+                                android:layout_height="match_parent"
+                                android:background="#00FFFFFF"
+                                android:fontFamily="sans-serif-black"
+                                android:text="Refugio con un árbol caído."
+                                android:textAlignment="inherit"
+                                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                                android:textColor="#62B165"
+                                android:textColorHint="#00000000"
+                                android:textColorLink="#000000"
+                                android:textSize="15sp" />
+
+                            <TextView
+                                android:id="@+id/text7"
+                                android:layout_width="358dp"
+                                android:layout_height="match_parent"
+                                android:background="#00FFFFFF"
+                                android:fontFamily="sans-serif"
+                                android:text="Hay que cortar algunas ramas para hacer una oquedad en la copa caída. Es un refugio acogedor y, si el árbol es frondoso, nos protegerá del viento, pero no de la lluvia."
+                                android:textAlignment="inherit"
+                                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                                android:textColor="#62B165"
+                                android:textColorHint="#00000000"
+                                android:textColorLink="#000000"
+                                android:textSize="15sp"/>
+
+                            <ImageView
+                                android:id="@+id/imageView14"
+                                android:layout_width="345dp"
+                                android:layout_height="140dp"
+                                app:srcCompat="@drawable/refugios_de_supervivencia_arbol" />
+
+                            <TextView
+                                android:id="@+id/espacio8"
+                                android:layout_width="207dp"
+                                android:layout_height="10dp"
+                                android:background="#004CAF50"
+                                android:text=""
+                                android:textAlignment="center"
+                                android:textColor="@color/white"
+                                android:textSize="24sp"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                tools:visibility="invisible" />
+
+                            <TextView
+                                android:id="@+id/titulo8"
+                                android:layout_width="358dp"
+                                android:layout_height="match_parent"
+                                android:background="#00FFFFFF"
+                                android:fontFamily="sans-serif-black"
+                                android:text="Refugio de tronco."
+                                android:textAlignment="inherit"
+                                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                                android:textColor="#62B165"
+                                android:textColorHint="#00000000"
+                                android:textColorLink="#000000"
+                                android:textSize="15sp" />
+
+                            <TextView
+                                android:id="@+id/text8"
+                                android:layout_width="358dp"
+                                android:layout_height="match_parent"
+                                android:background="#00FFFFFF"
+                                android:fontFamily="sans-serif"
+                                android:text="Es un tipo de refugio únicamente apropiado para pasar cortos periodos de tiempo porque no suele ser muy cómodo, a no ser que el tronco posea un gran diámetro. Consiste en un sencillo cobertizo que se realiza apoyando una serie de ramas sobre un tronco caído y cubriéndolas con los materiales indicados anteriormente."
+                                android:textAlignment="inherit"
+                                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                                android:textColor="#62B165"
+                                android:textColorHint="#00000000"
+                                android:textColorLink="#000000"
+                                android:textSize="15sp"/>
+
+                            <ImageView
+                                android:id="@+id/imageView15"
+                                android:layout_width="345dp"
+                                android:layout_height="140dp"
+                                app:srcCompat="@drawable/refugio_de_supervivencia_tronco" />
+
+
+
+                        </LinearLayout>
+                </ScrollView>
+
+
+        </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
