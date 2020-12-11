@@ -4,6 +4,10 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.webkit.WebSettings;
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
+
 import android.view.View;
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -28,16 +32,53 @@ import java.net.URL;
 
 public class InicioSesion extends AppCompatActivity {
 
+    private WebView webView;
     // CONNECTION_TIMEOUT and READ_TIMEOUT are in milliseconds
     public static final int CONNECTION_TIMEOUT=10000;
     public static final int READ_TIMEOUT=20000;
     private EditText etEmail;
     private EditText etPassword;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_inicio_sesion);
+
+        webView =(WebView) findViewById(R.id.webview);
+        webView.setWebViewClient(new WebViewClient());
+        webView.loadUrl("https://www.surviveapp.com");
+        WebSettings webSettings = webView.getSettings();
+        webSettings.setJavaScriptEnabled(true);
+    }
+
+    @Override
+    public void onBackPressed() {
+
+    }
+
+
+    @Override
+    public void onUserInteraction() {
+        super.onUserInteraction();
+        String s = webView.getUrl();
+        if(s.equals("https://192.168.0.173/iniciocorrecto.php")) {
+            Intent main = new Intent(this, MainActivity.class);
+            startActivity(main);
+        }
+    }
+
+
+    //---------------------------------------
+    //   public void Registrar(View view) {
+    //       Intent registrarse = new Intent(this, registrarse.class);
+    //       startActivity(registrarse);
+    //   }
+
+    //  public void menuprincipal(View view) {
+    //       Intent menu = new Intent(this, MainActivity.class);
+    //       startActivity(menu);
+    //   }
 
         // Get Reference to variables
         etEmail = (EditText) findViewById(R.id.email);
@@ -183,6 +224,5 @@ public class InicioSesion extends AppCompatActivity {
         }
 
     }
-
 
 }

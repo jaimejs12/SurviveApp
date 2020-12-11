@@ -5,59 +5,54 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#C8E6C9"
-    tools:context=".herramientas">
-
-
-
+    tools:context=".ComoOrientarse">
 
     <TextView
-        android:id="@+id/atextView4"
-        android:layout_width="384dp"
+        android:id="@+id/comoorientarse"
+        android:layout_width="417dp"
         android:layout_height="48dp"
         android:alpha="0.6"
         android:background="#000000"
         android:fontFamily="@font/roboto_bold"
-        android:text="Herramientas y útiles"
+        android:text="Como Orientarse"
         android:textAlignment="center"
-        android:textColor="@color/white"
-        android:textSize="30sp"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.428"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
-        android:layout_width="39dp"
-        android:layout_height="43dp"
+        android:id="@+id/imageView10"
+        android:layout_width="43dp"
+        android:layout_height="41dp"
         android:onClick="volver"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.043"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.007"
+        app:layout_constraintVertical_bias="0.01"
         app:srcCompat="@drawable/abc_vector_test" />
 
     <ScrollView
         android:id="@+id/scrollView5"
-        android:layout_width="309dp"
+        android:layout_width="409dp"
         android:layout_height="625dp"
-        android:layout_marginStart="51dp"
-        android:layout_marginTop="15dp"
-        android:layout_marginEnd="51dp"
-        android:layout_marginBottom="32dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/atextView4"
-        app:layout_constraintVertical_bias="0.545">
+        app:layout_constraintTop_toBottomOf="@+id/comoorientarse"
+        app:layout_constraintVertical_bias="0.145">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:orientation="vertical">
-
 
             <TextView
                 android:id="@+id/espacio3"
@@ -74,22 +69,26 @@
                 app:layout_constraintTop_toTopOf="parent"
                 tools:visibility="invisible" />
 
+
             <ImageView
                 android:id="@+id/sol"
                 android:layout_width="219dp"
                 android:layout_height="144dp"
                 android:layout_marginBottom="4dp"
-                android:src="@drawable/geolocalizacion" />
+                android:onClick="orientarsesol"
+                android:src="@drawable/sol" />
 
             <TextView
+                android:id="@+id/textosol"
                 android:layout_width="217dp"
                 android:layout_height="37dp"
                 android:background="#8F000000"
                 android:fontFamily="@font/roboto_bold"
-                android:text="Geolocalizacion"
+                android:onClick="orientarsesol"
+                android:shadowColor="#FFFFFF"
+                android:text="Sol"
                 android:textAlignment="center"
-                android:textColor="@color/white"
-                android:textSize="24sp"
+                android:textSize="30sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -112,17 +111,21 @@
 
 
             <ImageView
+                android:id="@+id/luna"
                 android:layout_width="217dp"
                 android:layout_height="170dp"
-                android:src="@drawable/brujula"
+                android:onClick="orientarseluna"
+                android:src="@drawable/luna"
                 tools:visibility="visible" />
 
             <TextView
+                android:id="@+id/textoluna"
                 android:layout_width="217dp"
                 android:layout_height="37dp"
                 android:background="#8F000000"
                 android:fontFamily="@font/roboto_bold"
-                android:text="Brujula"
+                android:onClick="orientarseluna"
+                android:text="Luna"
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 android:textSize="24sp"
@@ -132,6 +135,7 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
+                android:id="@+id/espacio2"
                 android:layout_width="207dp"
                 android:layout_height="37dp"
                 android:background="#00000000"
@@ -146,19 +150,21 @@
                 tools:visibility="invisible" />
 
             <ImageView
-                android:layout_width="327dp"
-                android:layout_height="163dp"
-                android:onClick="Luces"
-                android:src="@drawable/l"
+                android:id="@+id/estrellas"
+                android:layout_width="217dp"
+                android:layout_height="131dp"
+                android:onClick="orientarseestrellas"
+                android:src="@drawable/estre"
                 tools:visibility="visible" />
 
             <TextView
+                android:id="@+id/textoestrellas"
                 android:layout_width="217dp"
                 android:layout_height="37dp"
                 android:background="#8F000000"
                 android:fontFamily="@font/roboto_bold"
-                android:onClick="Luces"
-                android:text="Luces"
+                android:onClick="orientarseestrellas"
+                android:text="Estrellas"
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 android:textSize="24sp"
@@ -169,6 +175,7 @@
 
 
             <TextView
+                android:id="@+id/espa"
                 android:layout_width="207dp"
                 android:layout_height="37dp"
                 android:background="#00000000"
@@ -184,65 +191,31 @@
 
 
             <ImageView
+                android:id="@+id/roc"
                 android:layout_width="219dp"
                 android:layout_height="144dp"
                 android:layout_marginBottom="4dp"
-                android:onClick="Linterna"
-                android:src="@drawable/linterna" />
+                android:onClick="orientarsesignos"
+                android:src="@drawable/roca" />
 
             <TextView
+                android:id="@+id/textosigno"
                 android:layout_width="217dp"
                 android:layout_height="37dp"
                 android:background="#8F000000"
                 android:fontFamily="@font/roboto_bold"
-                android:onClick="Linterna"
-                android:text="Linterna"
+                android:onClick="orientarsesignos"
+                android:shadowColor="#FFFFFF"
+                android:text="Signos Naturales"
                 android:textAlignment="center"
-                android:textColor="@color/white"
-                android:textSize="24sp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                android:layout_width="207dp"
-                android:layout_height="37dp"
-                android:background="#00000000"
-                android:text=""
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:textSize="24sp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                tools:visibility="invisible" />
-
-            <ImageView
-                android:layout_width="219dp"
-                android:layout_height="144dp"
-                android:layout_marginBottom="4dp"
-                android:onClick="Silbato"
-                android:src="@drawable/silbato" />
-
-            <TextView
-                android:layout_width="217dp"
-                android:layout_height="37dp"
-                android:background="#8F000000"
-                android:fontFamily="@font/roboto_bold"
-                android:onClick="Silbato"
-                android:text="Silbato"
-                android:textAlignment="center"
-                android:textColor="@color/white"
                 android:textSize="30sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
-
             <TextView
+                android:id="@+id/espac"
                 android:layout_width="207dp"
                 android:layout_height="37dp"
                 android:background="#00000000"
@@ -255,69 +228,10 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 tools:visibility="invisible" />
-
-            <ImageView
-                android:layout_width="219dp"
-                android:layout_height="144dp"
-                android:onClick="Emergencias"
-                android:layout_marginBottom="4dp"
-                android:src="@drawable/emergencias" />
-
-            <TextView
-                android:layout_width="217dp"
-                android:layout_height="37dp"
-                android:background="#8F000000"
-                android:fontFamily="@font/roboto_bold"
-                android:text="Emergencias"
-                android:onClick="Emergencias"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:textSize="30sp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-
-            <TextView
-                android:layout_width="207dp"
-                android:layout_height="37dp"
-                android:background="#00000000"
-                android:text=""
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:textSize="24sp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                tools:visibility="invisible" />
-
-            <ImageView
-                android:layout_width="219dp"
-                android:layout_height="144dp"
-                android:layout_marginBottom="4dp"
-                android:onClick="Clima"
-                android:src="@drawable/clima" />
-
-            <TextView
-                android:layout_width="217dp"
-                android:layout_height="37dp"
-                android:background="#8F000000"
-                android:fontFamily="@font/roboto_bold"
-                android:onClick="Clima"
-                android:text="Clima"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:textSize="30sp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
 
         </LinearLayout>
 
     </ScrollView>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
