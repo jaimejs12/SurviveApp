@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C8E6C9"
+    tools:context=".InicioSesion">
+
+
+    <TextView
+        android:id="@+id/iniciomenu"
+        android:layout_width="404dp"
+        android:layout_height="46dp"
+        android:alpha="0.6"
+        android:background="#000000"
+        android:fontFamily="@font/roboto_bold"
+        android:text="Inicio de sesion"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="254dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="79dp"
+        android:layout_marginBottom="6dp"
+        android:fontFamily="@font/roboto_bold"
+        android:hint="Usuario"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/password"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="254dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="78dp"
+        android:fontFamily="@font/roboto_bold"
+        android:layout_marginEnd="79dp"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/boton_iniciosesion"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/boton_iniciosesion"
+        android:layout_width="254dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="17dp"
+        android:fontFamily="@font/roboto_bold"
+        android:layout_marginEnd="79dp"
+        android:layout_marginBottom="14dp"
+        android:onClick="checkLogin"
+        android:text="Inicio Sesión"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="109dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="109dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="¿No tienes cuenta? ¡Regístrate!"
+        app:layout_constraintBottom_toTopOf="@+id/boton_registrarse"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/boton_iniciosesion"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/boton_registrarse"
+        android:layout_width="254dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="79dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="79dp"
+        android:layout_marginBottom="134dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="Registrarse"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="118dp"
+        android:layout_height="132dp"
+        android:layout_marginStart="146dp"
+        android:layout_marginTop="54dp"
+        android:layout_marginEnd="147dp"
+        android:layout_marginBottom="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iniciomenu"
+        app:srcCompat="@drawable/trampa" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
