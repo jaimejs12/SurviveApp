@@ -8,13 +8,14 @@
     tools:context=".Silbato">
 
     <TextView
-        android:id="@+id/atextView4"
-        android:layout_width="360dp"
-        android:layout_height="47dp"
+        android:id="@+id/textView4"
+        android:layout_width="367dp"
+        android:layout_height="wrap_content"
         android:alpha="0.6"
         android:background="#000000"
         android:fontFamily="@font/roboto_bold"
-        android:text="Silbato"
+        android:text="SurviveApp"
+
         android:textAlignment="center"
         android:textColor="#ffffff"
         android:textSize="36sp"
@@ -23,8 +24,19 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        />
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.041"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022"
+        app:srcCompat="@drawable/abc_vector_test" />
 
     <Button
         android:id="@+id/button"

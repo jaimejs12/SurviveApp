@@ -19,4 +19,8 @@ public class guia_y_manual extends AppCompatActivity {
         startActivity(sol);
     }
 
+    public void PantallaTecnicas(View view) {
+        Intent sigpantalla = new Intent(this, Tecnicas_supervivencia.class);
+        startActivity(sigpantalla);
+    }
 }
