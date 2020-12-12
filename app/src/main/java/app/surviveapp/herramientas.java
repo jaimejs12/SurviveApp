@@ -15,13 +15,8 @@ public class herramientas extends AppCompatActivity {
     }
 
     public void Geolocalizacion(View view) {
-        Intent geo = new Intent(this, linterna.class);
+        Intent geo = new Intent(this, geolocalizacion.class);
         startActivity(geo);
-    }
-
-    public void Brujula(View view) {
-        Intent bru = new Intent(this, linterna.class);
-        startActivity(bru);
     }
 
     public void Emergencias(View view) {
