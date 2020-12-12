@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C8E6C9"
+    tools:context=".AfrontarAccidentes">
+
+    <TextView
+        android:id="@+id/accidentes"
+        android:layout_width="417dp"
+        android:layout_height="48dp"
+        android:alpha="0.6"
+        android:background="#000000"
+        android:fontFamily="@font/roboto_bold"
+        android:text="Cómo afrontar accidentes"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="volver"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.012"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022"
+        app:srcCompat="@drawable/abc_vector_test" />
+
+    <ScrollView
+        android:id="@+id/scrollaccidentes"
+        android:layout_width="380dp"
+        android:layout_height="453dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="196dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/menuluna"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="370dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="@font/roboto_bold"
+                android:text="Protege, Avisa y Socorre"
+                android:textAlignment="center"
+                android:textColor="#63B854"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="370dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="@font/roboto_bold"
+                android:text="La primera recomendación es minimizar los riesgos. Esto se consigue adoptando varias medidas, una de ellas es comentar con alguien siempre a dónde vamos a ir. Si no especificamos qué lugar visitaremos y no se nos puede localizar por ejemplo a través del móvil, entonces no habrá manera de averiguar por dónde empezar a buscarnos. Incluso para aumentar la seguridad, se aconseja acordar hacer una llamada o enviar un mensaje sobre una hora concreta."
+                android:textAlignment="center"
+                android:textColor="#63B854"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="370dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="@font/roboto_bold"
+                android:text="Cuando se habla de proteger se está haciendo referencia a que la escena donde ha acontecido el accidente se vuelva lo más segura posible. Tendremos que evaluar qué riesgos hay y tratar de eliminar en la medida de lo posible aquellos elementos que son peligrosos tanto para el herido como para nosotros mismos y el resto del grupo. La víctima es la más vulnerable y por lo tanto se le ha de dar la mayor protección posible. Para ello hay que comprobar en qué estado se encuentra, si habla o no, si está inconsciente, si respira…"
+                android:textAlignment="center"
+                android:textColor="#63B854"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="370dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="@font/roboto_bold"
+                android:text="Después viene la fase del aviso, la cual dependerá de distintas variables. Si tenemos móvil y hay cobertura llamaremos al 112. Se ha de procurar mantener la calma pues nos harán varias preguntas siendo la más importante la de las coordenadas de la ubicación en las que nos encontremos."
+                android:textAlignment="center"
+                android:textColor="#63B854"
+                android:textSize="18dp" />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/pas" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="136dp"
+        android:layout_height="88dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginBottom="70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/e" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

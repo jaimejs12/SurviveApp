@@ -15,7 +15,9 @@
     <uses-feature android:name="android.hardware.camera" />
     <uses-feature android:name="android.hardware.camera2" />
 
+    <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.FLASHLIGHT" />
+
 
     <uses-feature android:name="android.hardware.camera.flash" />
 
@@ -28,6 +30,7 @@
         android:supportsRtl="true"
         android:usesCleartextTraffic="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".Llamar" />
         <activity android:name=".menu_conseguir_alimentos"></activity>
         <activity android:name=".InicioSesion" />
         <activity android:name=".curar_heridas" />
@@ -48,6 +51,22 @@
         <activity android:name=".Silbato" />
         <activity android:name=".herramientas" />
         <activity android:name=".guia_y_manual" />
+        <activity android:name=".AfrontarAccidentes" />
+        <activity android:name=".Clima" />
+        <activity android:name=".ComoOrientarse" />
+        <activity android:name=".ComoOrientarseEstrellas" />
+        <activity android:name=".ComoOrientarseLuna" />
+        <activity android:name=".ComoOrientarseSignos" />
+        <activity android:name=".ComoOrientarseSol" />
+        <activity android:name=".registrarse" />
+        <activity android:name=".registrarse2Pago" />
+        <activity android:name=".articulo_agua" />
+        <activity android:name=".articulo_calor" />
+        <activity android:name=".articulo_frio" />
+        <activity android:name=".articulo_fuego" />
+        <activity android:name=".articulo_refugio" />
+        <activity android:name=".articulo_rescate" />
+        <activity android:name=".Tecnicas_supervivencia" />
         <activity
             android:name=".Inicio"
             android:theme="@style/SplashTheme">
