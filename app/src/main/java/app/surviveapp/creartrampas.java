@@ -15,7 +15,7 @@ public class creartrampas extends AppCompatActivity {
 
     }
 
-    public void VolverMenu(View view) {
+    public void volver(View view) {
         Intent volverMenu = new Intent(this, menu_conseguir_alimentos.class);
         startActivity(volverMenu);
     }

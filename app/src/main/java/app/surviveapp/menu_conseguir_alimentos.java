@@ -15,7 +15,7 @@ public class menu_conseguir_alimentos extends AppCompatActivity {
     }
 
     public void queComer(View view) {
-        Intent queComer = new Intent(this, geolocalizacion.class);
+        Intent queComer = new Intent(this, que_comer.class);
         startActivity(queComer);
     }
 
@@ -27,6 +27,11 @@ public class menu_conseguir_alimentos extends AppCompatActivity {
     public void Trampas(View view) {
         Intent trampas = new Intent(this, creartrampas.class);
         startActivity(trampas);
+    }
+
+    public void volver(View view) {
+        Intent volver = new Intent(this, guia_y_manual.class);
+        startActivity(volver);
     }
 
 }
