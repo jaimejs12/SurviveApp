@@ -26,22 +26,22 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
-        android:id="@+id/imageView10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="VolverMenu"
+        android:id="@+id/imageView19"
+        android:layout_width="39dp"
+        android:layout_height="43dp"
+        android:onClick="volver"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.041"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.022"
+        app:layout_constraintVertical_bias="0.007"
         app:srcCompat="@drawable/abc_vector_test" />
 
     <ScrollView
         android:id="@+id/scrollView4"
-        android:layout_width="359dp"
-        android:layout_height="504dp"
+        android:layout_width="352dp"
+        android:layout_height="563dp"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="34dp"
         android:layout_marginEnd="5dp"
@@ -55,6 +55,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="#FFFFFF"
             android:gravity="center"
             android:orientation="vertical">
 
@@ -63,10 +64,10 @@
                 android:layout_width="370dp"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="5dp"
-                android:fontFamily="@font/roboto_thin"
+                android:fontFamily="sans-serif"
                 android:text="Trampas de supervivencia de lazo: Las trampas de lazo son sencillas y crueles. Para cazar pequeños animales, como conejos, se pueden construir con un cordel, sedal de pescar resistente, alambre, etc. El lazo tendrá el grosor de un puño y estará colocado a 4 dedos del suelo."
                 android:textAlignment="center"
-                android:textColor="#000000"
+                android:textColor="#63B854"
                 android:textSize="18dp" />
 
             <ImageView
@@ -86,10 +87,10 @@
                 android:layout_width="370dp"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="5dp"
-                android:fontFamily="@font/roboto_thin"
+                android:fontFamily="sans-serif"
                 android:text="Trampas de caza con mecanismo en forma de 4: Se trata de un dispositivo clásico y efectivo que se suele usar para sostener losas que matan a los animales por aplastamiento. Es útil para cazar tanto mamíferos como aves. Si sustituimos la losa por una cesta podemos capturarlos vivos."
                 android:textAlignment="center"
-                android:textColor="#000000"
+                android:textColor="#63B854"
                 android:textSize="18dp" />
 
             <ImageView

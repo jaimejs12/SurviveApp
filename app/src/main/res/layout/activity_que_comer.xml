@@ -28,11 +28,12 @@
 
     <ScrollView
         android:id="@+id/scrollView4"
-        android:layout_width="376dp"
-        android:layout_height="506dp"
+        android:layout_width="374dp"
+        android:layout_height="597dp"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="34dp"
         android:layout_marginEnd="5dp"
+        android:background="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.533"
@@ -43,6 +44,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="#FFFFFF"
             android:gravity="center"
             android:orientation="vertical">
 
@@ -51,64 +53,64 @@
                 android:layout_width="370dp"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="5dp"
-                android:fontFamily="@font/roboto_thin"
+                android:fontFamily="sans-serif"
                 android:text="Los alimentos son una importante preocupación para un superviviente, aún cuando el agua es de mayor importancia
 , son indispensables para mantener las energías, el calor corporal, y la moral elevada.
 En condiciones de emergencia no se piensa en diestas equilibradas. Recordemos que hay 3 grupos de alimentos vitales y que debe ingerir de los tres:
 carnes, granos y grasas."
                 android:textAlignment="center"
-                android:textColor="#000000"
+                android:textColor="#63B854"
                 android:textSize="18dp" />
 
             <TextView
                 android:layout_width="370dp"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="5dp"
-                android:fontFamily="@font/roboto_thin"
+                android:fontFamily="sans-serif"
                 android:text="En condiciones de emergencia no se piensa en diestas equilibradas. Recordemos que hay 3 grupos de alimentos vitales y que debe ingerir de los tres:
 carnes, granos y grasas."
                 android:textAlignment="center"
-                android:textColor="#000000"
+                android:textColor="#63B854"
                 android:textSize="18dp" />
 
             <TextView
                 android:layout_width="370dp"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="5dp"
-                android:fontFamily="@font/roboto_thin"
+                android:fontFamily="sans-serif"
                 android:text="Bueno, casi todo animal que se arrastra, camina, vuela o se desplazaza bajo agua, excepto los conocidamente tóxicos y que por lo general destacan por sus vivos colores o formas infladas o con espinas. El resto de los peces son comestibles, aún cuando su sabor no sea enteramente placentero."
                 android:textAlignment="center"
-                android:textColor="#000000"
+                android:textColor="#63B854"
                 android:textSize="18dp" />
 
             <TextView
                 android:layout_width="370dp"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="5dp"
-                android:fontFamily="@font/roboto_thin"
+                android:fontFamily="sans-serif"
                 android:text="Los animales marinos son casi todos comestibles, los moluscos pegados a rocas o enterrados, los peces, crustaceos y otros. Se pueden consumir crudos, asados o hervidos."
                 android:textAlignment="center"
-                android:textColor="#000000"
+                android:textColor="#63B854"
                 android:textSize="18dp" />
 
             <TextView
                 android:layout_width="370dp"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="5dp"
-                android:fontFamily="@font/roboto_thin"
+                android:fontFamily="sans-serif"
                 android:text="En tierra, las lombrices, larvas de insectos, insectos, babosas, caracoles, arañas, se pueden comer enteros, especialmente asados sobre una lata o sobre el fuego."
                 android:textAlignment="center"
-                android:textColor="#000000"
+                android:textColor="#63B854"
                 android:textSize="18dp" />
 
             <TextView
                 android:layout_width="370dp"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="5dp"
-                android:fontFamily="@font/roboto_thin"
+                android:fontFamily="sans-serif"
                 android:text="Lo único que no es recomendable comer es el hígado de animales grandes pues es tóxico, pero se puede consumir en porciones muy pequeñas."
                 android:textAlignment="center"
-                android:textColor="#000000"
+                android:textColor="#63B854"
                 android:textSize="18dp" />
 
         </LinearLayout>
@@ -117,16 +119,16 @@ carnes, granos y grasas."
     </ScrollView>
 
     <ImageView
-        android:id="@+id/imageView10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="VolverMenu"
+        android:id="@+id/imageView19"
+        android:layout_width="39dp"
+        android:layout_height="43dp"
+        android:onClick="volver"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.041"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.022"
+        app:layout_constraintVertical_bias="0.007"
         app:srcCompat="@drawable/abc_vector_test" />
 
 

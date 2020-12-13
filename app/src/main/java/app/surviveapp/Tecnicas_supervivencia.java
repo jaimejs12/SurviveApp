@@ -43,4 +43,9 @@ public class Tecnicas_supervivencia extends AppCompatActivity {
         Intent sigpantalla = new Intent(this, articulo_calor.class);
         startActivity(sigpantalla);
     }
+
+    public void volver(View view) {
+        Intent volver = new Intent(this, guia_y_manual.class);
+        startActivity(volver);
+    }
 }

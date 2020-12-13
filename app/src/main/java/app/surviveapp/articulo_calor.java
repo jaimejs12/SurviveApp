@@ -1,6 +1,8 @@
 package app.surviveapp;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -12,4 +14,8 @@ public class articulo_calor extends AppCompatActivity {
         setContentView(R.layout.activity_articulo_calor);
     }
 
+    public void volver(View view) {
+        Intent volver = new Intent(this, Tecnicas_supervivencia.class);
+        startActivity(volver);
+    }
 }

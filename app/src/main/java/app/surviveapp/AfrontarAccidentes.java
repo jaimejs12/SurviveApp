@@ -18,4 +18,5 @@ public class AfrontarAccidentes extends AppCompatActivity {
         Intent accidente = new Intent(this, guia_y_manual.class);
         startActivity(accidente);
     }
+
 }
