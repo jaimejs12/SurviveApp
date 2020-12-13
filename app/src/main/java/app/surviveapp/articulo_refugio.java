@@ -14,4 +14,8 @@ public class articulo_refugio extends AppCompatActivity {
         setContentView(R.layout.activity_tecnicas_supervivencia);
     }
 
+    public void volver(View view) {
+        Intent volver = new Intent(this, Tecnicas_supervivencia.class);
+        startActivity(volver);
+    }
 }
