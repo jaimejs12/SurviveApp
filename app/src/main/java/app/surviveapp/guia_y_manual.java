@@ -35,7 +35,7 @@ public class guia_y_manual extends AppCompatActivity {
     }
 
     public void PantallaKit(View view) {
-        Intent sigpantalla = new Intent(this, menu_conseguir_alimentos.class);
+        Intent sigpantalla = new Intent(this, kit_supervivencia.class);
         startActivity(sigpantalla); //CAMBIARRR
     }
 
