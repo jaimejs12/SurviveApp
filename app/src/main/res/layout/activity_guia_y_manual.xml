@@ -64,6 +64,7 @@
                 android:background="#C6606060"
                 android:shadowColor="#FFFFFF"
                 android:text="Cómo orientarse"
+                android:onClick="PantallaOrientarse"
                 android:textColor="@color/white"
                 android:textSize="22sp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -175,6 +176,8 @@
             android:id="@+id/menuguía"
             android:layout_width="match_parent"
             android:layout_height="47dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="0dp"
             android:background="#C1FFFFFF"
             android:backgroundTint="#3E3C3C"
             android:fontFamily="@font/roboto_bold"
@@ -183,6 +186,19 @@
             android:textAlignment="center"
             android:textSize="22sp"
             tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:layout_width="39dp"
+            android:layout_height="43dp"
+            android:onClick="volver"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.007"
+            app:srcCompat="@drawable/abc_vector_test" />
+
 
 
     </RelativeLayout>
@@ -194,18 +210,5 @@
         android:layout_alignParentBottom="true"
         android:orientation="vertical"
         tools:ignore="MissingConstraints" />
-
-    <Button
-        android:id="@+id/button7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="157dp"
-        android:layout_marginTop="93dp"
-        android:layout_marginEnd="167dp"
-        android:onClick="aaa"
-        android:text="Button"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/atextView4" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

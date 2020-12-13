@@ -7,9 +7,6 @@
     android:background="#C8E6C9"
     tools:context=".herramientas">
 
-
-
-
     <TextView
         android:id="@+id/atextView4"
         android:layout_width="384dp"
