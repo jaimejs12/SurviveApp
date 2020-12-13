@@ -21,7 +21,7 @@
             android:backgroundTint="#3E3C3C"
             android:fontFamily="@font/roboto_bold"
             android:gravity="center"
-            android:text="Obtener agua potale"
+            android:text="Obtener agua potable"
             android:textAlignment="center"
             android:textSize="22sp"
             tools:ignore="MissingConstraints" />

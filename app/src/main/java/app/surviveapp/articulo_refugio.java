@@ -11,7 +11,7 @@ public class articulo_refugio extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_tecnicas_supervivencia);
+        setContentView(R.layout.activity_articulo_refugio);
     }
 
     public void volver(View view) {

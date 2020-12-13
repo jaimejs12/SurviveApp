@@ -64,7 +64,7 @@
 
                 <TextView
                     android:id="@+id/refugio"
-                    android:layout_width="300dp"
+                    android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="#8F000000"
                     android:fontFamily="@font/roboto_bold"
@@ -99,7 +99,7 @@
 
                 <TextView
                     android:id="@+id/fuego"
-                    android:layout_width="300dp"
+                    android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="#8F000000"
                     android:onClick="PantallaFuego"
@@ -133,7 +133,7 @@
 
                 <TextView
                     android:id="@+id/agua"
-                    android:layout_width="300dp"
+                    android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="#8F000000"
                     android:fontFamily="@font/roboto_bold"
@@ -167,7 +167,7 @@
 
                 <TextView
                     android:id="@+id/señales"
-                    android:layout_width="300dp"
+                    android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="#8F000000"
                     android:fontFamily="@font/roboto_bold"
@@ -201,7 +201,7 @@
 
                 <TextView
                     android:id="@+id/frio"
-                    android:layout_width="300dp"
+                    android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="#8F000000"
                     android:fontFamily="@font/roboto_bold"
@@ -235,7 +235,7 @@
 
                 <TextView
                     android:id="@+id/calor"
-                    android:layout_width="300dp"
+                    android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="#8F000000"
                     android:fontFamily="@font/roboto_bold"

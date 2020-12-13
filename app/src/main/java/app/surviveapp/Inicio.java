@@ -33,7 +33,7 @@ public class Inicio extends AppCompatActivity {
     public void onUserInteraction() {
         super.onUserInteraction();
         String s = webView.getUrl();
-        if(s.equals("https://surviveapp.clanjhoo.com:4433/iniciocorrecto.php")) {
+        if(s.equals("https://surviveapp.clanjhoo.com:4433/Inicio/Cliente/iniciocorrecto.php")) {
             Intent main = new Intent(this, MainActivity.class);
             startActivity(main);
         }
