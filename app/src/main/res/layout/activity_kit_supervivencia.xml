@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C8E6C9"
+    tools:context=".articulo_agua">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".SplashScreenActivity">
+
+        <TextView
+            android:id="@+id/menuguía"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:background="#C1FFFFFF"
+            android:backgroundTint="#3E3C3C"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="center"
+            android:text="Kit de Supervivencia"
+            android:textAlignment="center"
+            android:textSize="22sp"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:layout_width="39dp"
+            android:layout_height="43dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="372dp"
+            android:layout_marginBottom="688dp"
+            android:onClick="volver"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.007"
+            app:srcCompat="@drawable/abc_vector_test" />
+
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/menuguía"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="19dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="18dp"
+            android:background="#A8FFFFFF"
+            android:cacheColorHint="#000000">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/text11"
+                    android:layout_width="358dp"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:fontFamily="sans-serif"
+                    android:text="Además del kit, deberemos llevar en algún lugar impermeabilizado (los expertos recomiendan una funda anti-impacto) papel de seguridad con nuestros datos, contacto de emergencia, alergias, tipo de sangre, fotocopia del DNI o pasaporte, y certificados de vacunación, etc."
+                    android:textAlignment="inherit"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#62B165"
+                    android:textColorHint="#00000000"
+                    android:textColorLink="#000000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:id="@+id/espacio13"
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="#004CAF50"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:visibility="invisible" />
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="223dp"
+                    app:srcCompat="@drawable/pexels_roger_brown_5125690" />
+
+                <TextView
+                    android:id="@+id/espacio15"
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="#004CAF50"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:visibility="invisible" />
+
+                <TextView
+                    android:id="@+id/text33"
+                    android:layout_width="358dp"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:fontFamily="sans-serif"
+                    android:text="1.Embalaje"
+                    android:textAlignment="inherit"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#62B165"
+                    android:textColorHint="#00000000"
+                    android:textColorLink="#000000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:id="@+id/espacio10"
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="#004CAF50"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:visibility="invisible" />
+
+                <TextView
+                    android:id="@+id/text2"
+                    android:layout_width="358dp"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:fontFamily="sans-serif"
+                    android:text="Debe ser pequeño, pero suficiente como para que nos quepa todo. En internet puedes encontrar ideas: cajas metálicas de tabaco, bolsitos, estuches… Además, lo mejor es llevarlo impermeabilizado. Las bolsitas para congelados con zip es la opción más barata."
+                    android:textAlignment="inherit"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#62B165"
+                    android:textColorHint="#00000000"
+                    android:textColorLink="#000000"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/espacio11"
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="#004CAF50"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:visibility="invisible" />
+
+                <TextView
+                    android:id="@+id/text_2"
+                    android:layout_width="358dp"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:fontFamily="sans-serif"
+                    android:text="2. Botiquín"
+                    android:textAlignment="inherit"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#62B165"
+                    android:textColorHint="#00000000"
+                    android:textColorLink="#000000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:id="@+id/espacio12"
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="#004CAF50"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:visibility="invisible" />
+
+                <TextView
+                    android:id="@+id/text_3"
+                    android:layout_width="358dp"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:fontFamily="sans-serif"
+                    android:text="3. Señalización y orientación"
+                    android:textAlignment="inherit"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#62B165"
+                    android:textColorHint="#00000000"
+                    android:textColorLink="#000000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:id="@+id/espacio100"
+                    android:layout_width="207dp"
+                    android:layout_height="10dp"
+                    android:background="#004CAF50"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:visibility="invisible" />
+
+                <TextView
+                    android:id="@+id/text_111"
+                    android:layout_width="358dp"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:fontFamily="sans-serif"
+                    android:text="La brújula y silbato las cuales ahorras espacio porque la aplicación ya te ofrece estas funcionalidades."
+                    android:textAlignment="inherit"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#62B165"
+                    android:textColorHint="#00000000"
+                    android:textColorLink="#000000"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:id="@+id/text_1"
+                    android:layout_width="358dp"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:fontFamily="sans-serif"
+                    android:text="Chaleco reflectante, ropa llamativa, banda reflectante de correr… Siempre debemos llevar algo de este tipo para ser localizados en caso de accidente. "
+                    android:textAlignment="inherit"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#62B165"
+                    android:textColorHint="#00000000"
+                    android:textColorLink="#000000"
+                    android:textSize="15sp"/>
+
+
+                <TextView
+                    android:id="@+id/espacio14"
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="#004CAF50"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:visibility="invisible" />
+
+                <TextView
+                    android:id="@+id/text_4"
+                    android:layout_width="358dp"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:fontFamily="sans-serif"
+                    android:text="4. Mantener el calor y la nutrición"
+                    android:textAlignment="inherit"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#62B165"
+                    android:textColorHint="#00000000"
+                    android:textColorLink="#000000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:id="@+id/espacio9"
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="#004CAF50"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:visibility="invisible" />
+
+                <TextView
+                    android:id="@+id/text_555"
+                    android:layout_width="358dp"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:fontFamily="sans-serif"
+                    android:text="Para cumplir con este requisito, la aplicación nos proporciona unos artículos muy interesantes que te ayudaran en cualquier situación. Aún asi, indicamos algunos artículos que te podrán ser útiles. "
+                    android:textAlignment="inherit"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#62B165"
+                    android:textColorHint="#00000000"
+                    android:textColorLink="#000000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:id="@+id/text_5"
+                    android:layout_width="358dp"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:fontFamily="sans-serif"
+                    android:text="Cerillas / chisquero. No hay que olvidar que en verano el fuego está prohibido en las zonas de riesgo"
+                    android:textAlignment="inherit"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#62B165"
+                    android:textColorHint="#00000000"
+                    android:textColorLink="#000000"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:id="@+id/text_55"
+                    android:layout_width="358dp"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:fontFamily="sans-serif"
+                    android:text="Vaso de aluminio plegable. Básico para poder prepararnos la comida, o el té."
+                    android:textAlignment="inherit"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#62B165"
+                    android:textColorHint="#00000000"
+                    android:textColorLink="#000000"
+                    android:textSize="15sp"/>
+
+
+                <TextView
+                    android:id="@+id/espacio22"
+                    android:layout_width="207dp"
+                    android:layout_height="10dp"
+                    android:background="#004CAF50"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:visibility="invisible" />
+
+                <TextView
+                    android:id="@+id/text_"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:fontFamily="sans-serif"
+                    android:text="5. Reparar materiales, fabricar trampas"
+                    android:textAlignment="inherit"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#62B165"
+                    android:textColorHint="#00000000"
+                    android:textColorLink="#000000"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/espacio1"
+                    android:layout_width="207dp"
+                    android:layout_height="10dp"
+                    android:background="#004CAF50"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:visibility="invisible" />
+
+
+                <TextView
+                    android:id="@+id/text_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:fontFamily="sans-serif"
+                    android:text="Para cumplir con este requisito, la aplicación nos proporciona unos artículos muy interesantes que te ayudaran en cualquier situación. Aún asi, indicamos algunos artículos que te podrán ser útiles. "
+                    android:textAlignment="inherit"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#62B165"
+                    android:textColorHint="#00000000"
+                    android:textColorLink="#000000"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/text_66"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:fontFamily="sans-serif"
+                    android:text="Cuerda o cordel. Podemos llevar una pulsera de paracord por ejemplo, que es resistente y ligera"
+                    android:textAlignment="inherit"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#62B165"
+                    android:textColorHint="#00000000"
+                    android:textColorLink="#000000"
+                    android:textSize="15sp" />
+                <TextView
+                    android:id="@+id/text_666"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:fontFamily="sans-serif"
+                    android:text="Aguja e hilo resistente. Antes de llevaros el hilo del costurero de vuestra madre, comprobad que no se rompe fácilmente al tirar (hilo de hilvanar)."
+                    android:textAlignment="inherit"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#62B165"
+                    android:textColorHint="#00000000"
+                    android:textColorLink="#000000"
+                    android:textSize="15sp" />
+                <TextView
+                    android:id="@+id/text_6666"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:fontFamily="sans-serif"
+                    android:text="Bridas de electricista, imperdibles. Otro básico que nunca falta en mi kit, de diferentes tamaños. También para reparar o sujetar materiales."
+                    android:textAlignment="inherit"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#62B165"
+                    android:textColorHint="#00000000"
+                    android:textColorLink="#000000"
+                    android:textSize="15sp" />
+                <TextView
+                    android:id="@+id/espacio"
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="#004CAF50"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"/>
+
+                <TextView
+                    android:id="@+id/espacio2"
+                    android:layout_width="207dp"
+                    android:layout_height="10dp"
+                    android:background="#004CAF50"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:visibility="invisible" />
+
+
+
+
+            </LinearLayout>
+        </ScrollView>
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
