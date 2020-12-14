@@ -63,6 +63,7 @@
         <activity android:name=".articulo_agua" />
         <activity android:name=".articulo_calor" />
         <activity android:name=".articulo_frio" />
+        <activity android:name=".kit_supervivencia" />
         <activity android:name=".articulo_fuego" />
         <activity android:name=".articulo_refugio" />
         <activity android:name=".articulo_rescate" />
