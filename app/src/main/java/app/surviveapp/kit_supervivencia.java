@@ -11,7 +11,7 @@ public class kit_supervivencia extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_articulo_agua);
+        setContentView(R.layout.activity_kit_supervivencia);
     }
 
     public void volver(View view) {
